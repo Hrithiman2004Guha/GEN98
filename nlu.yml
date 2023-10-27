@@ -1,0 +1,201 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_event_info
+  examples: |
+    - What is the [date and location]{"entity":"general_info", "value":"DL"} of the event?
+    - Can you tell me about the [schedule]{"entity":"general_info", "value":"S"} for the convention?
+    - Where will the convention take [place]{"entity":"general_info", "value":"L"}?
+    - What is the [Global Alumni Convention]{"entity":"general_info","value":"DESC"} event?
+    - Tell me about the [GAC]{"entity":"general_info", "value":"DESC"} event.
+    - [When and where]{"entity":"general_info", "value":"DL"} is the event happening?
+    - Describe the event's [date and location]{"entity":"general_info","value":"DL"}.
+    - Share details about the event [schedule]{"entity":"general_info","value":"S"}.
+    - Give me information on the event's [location]{"entity":"general_info","value":"L"}.
+    - Provide a brief [overview]{"entity":"general_info","value":"DESC"} of the Global Alumni Convention.
+    - [Explain the GAC event]{"entity":"general_info","value":"DESC"} to me.
+    - When and where can I attend the event?
+    - Tell me the date and location for the convention.
+    - What's the schedule for the event?
+    - Provide details about the event's location.
+    - Can you give me a summary of the Global Alumni Convention?
+    - Describe the GAC event.
+    - What are the specifics of the event's date and location?
+    - Share the convention's schedule with me.
+    - Where is the event taking place?
+    - Please describe the Global Alumni Convention.
+    - How can I learn more about the GAC event?
+    - What is the event's date and location?
+    - What's on the schedule for the convention?
+    - Tell me where the convention will be held.
+    - Give me an overview of the Global Alumni Convention.
+    - Briefly describe the GAC event.
+    - Provide information about the date and location.
+    - What is the event's date and location?
+    - Can you provide details on the convention's schedule?
+    - Where is the event's venue?
+    - Share information about the Global Alumni Convention.
+    - Tell me about the GAC event.
+    - When and where should I be for the event?
+    - What's the date and location of the convention?
+    - What's on the schedule for the event?
+    - Can you specify the location of the convention?
+    - Describe the Global Alumni Convention for me.
+    - Tell me more about the GAC event.
+    - When is the event, and where will it be?
+    - Provide the date and location details.
+    - What can you tell me about the convention's schedule?
+    - Where can I find the event?
+    - Share some insights about the Global Alumni Convention.
+    - Explain the GAC event to me in detail.
+    - What's the date and location information for the event?
+    - Can you outline the schedule for the convention?
+    - Where should I go for the event?
+    - Tell me all about the Global Alumni Convention.
+    - Provide a comprehensive overview of the GAC event.
+
+
+- intent: ask_registration
+  examples: |
+    - How can I register for the event?
+    - What is the registration fee?
+    - Can you guide me through the registration process?
+
+- intent: ask_networking
+  examples: |
+    - Are there networking sessions or meetups?
+    - Can I connect with fellow alumni at the event?
+    - How can I participate in networking activities?
+
+- intent: ask_food
+  examples: |
+    - Do you cater to dietary restrictions?
+    - What food options will be available during the event?
+    - Can I request a special meal?
+
+
+- intent: ask_transportation
+  examples: |
+    - Is there parking available at the event venue?
+    - How do I get to the convention from the airport?
+    - What transportation options are there in the area?
+
+
+- intent: ask_sponsors
+  examples: |
+    - Who are the event sponsors and exhibitors?
+    - How can my company become a sponsor?
+    - Tell me about the exhibitor booths.
+
+
+- intent: ask_policies
+  examples: |
+    - What are the event's terms and conditions?
+    - Can you provide information about the event guidelines?
+    - Are there any rules I should be aware of?
+
+
+- intent: ask_technical_support
+  examples: |
+    - I'm having trouble with the event app. Can you help?
+    - How do I access the virtual event platform?
+    - Who do I contact for technical issues?
+
+
+- intent: give_feedback
+  examples: |
+    - I have some feedback about the event.
+    - Can I provide suggestions to improve the convention?
+    - How do I share my thoughts about the event?
+
+
+
