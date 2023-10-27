@@ -1,4 +1,4 @@
-version: "3.1"
+version: "2.0"
 
 nlu:
 - intent: greet
@@ -19,6 +19,7 @@ nlu:
 
 - intent: goodbye
   examples: |
+    - good afternoon
     - cu
     - good by
     - cee you later
@@ -89,10 +90,61 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-
-- intent: previous_GAC_2018
-  examples: |
-    - What was the [schedule of GAC 2018]{"entity":"gac2018", "value":"S"}?
+# - intent: ask_event_info
+#   examples: |
+#     - What is the [date and location]{"entity":"general_info", "value":"DL"} of the event?
+#     - Can you tell me about the [schedule]{"entity":"general_info", "value":"S"} for the convention?
+#     - Where will the convention take [place]{"entity":"general_info", "value":"L"}?
+#     - What is the [Global Alumni Convention]{"entity":"general_info","value":"DESC"} event?
+#     - Tell me about the [GAC]{"entity":"general_info", "value":"DESC"} event.
+#     - [When and where]{"entity":"general_info", "value":"DL"} is the event happening?
+#     - Describe the event's [date and location]{"entity":"general_info","value":"DL"}.
+#     - Share details about the event [schedule]{"entity":"general_info","value":"S"}.
+#     - Give me information on the event's [location]{"entity":"general_info","value":"L"}.
+#     - Provide a brief [overview]{"entity":"general_info","value":"DESC"} of the Global Alumni Convention.
+#     - [Explain the GAC event]{"entity":"general_info","value":"DESC"} to me.
+#     - When and where can I attend the event?
+#     - Tell me the date and location for the convention.
+#     - What's the schedule for the event?
+#     - Provide details about the event's location.
+#     - Can you give me a summary of the Global Alumni Convention?
+#     - Describe the GAC event.
+#     - What are the specifics of the event's date and location?
+#     - Share the convention's schedule with me.
+#     - Where is the event taking place?
+#     - Please describe the Global Alumni Convention.
+#     - How can I learn more about the GAC event?
+#     - What is the event's date and location?
+#     - What's on the schedule for the convention?
+#     - Tell me where the convention will be held.
+#     - Give me an overview of the Global Alumni Convention.
+#     - Briefly describe the GAC event.
+#     - Provide information about the date and location.
+#     - What is the event's date and location?
+#     - Can you provide details on the convention's schedule?
+#     - Where is the event's venue?
+#     - Share information about the Global Alumni Convention.
+#     - Tell me about the GAC event.
+#     - When and where should I be for the event?
+#     - What's the date and location of the convention?
+#     - What's on the schedule for the event?
+#     - Can you specify the location of the convention?
+#     - Describe the Global Alumni Convention for me.
+#     - Tell me more about the GAC event.
+#     - When is the event, and where will it be?
+#     - Provide the date and location details.
+#     - What can you tell me about the convention's schedule?
+#     - Where can I find the event?
+#     - Share some insights about the Global Alumni Convention.
+#     - Explain the GAC event to me in detail.
+#     - What's the date and location information for the event?
+#     - Can you outline the schedule for the convention?
+#     - Where should I go for the event?
+#     - Tell me all about the Global Alumni Convention.
+#     - Provide a comprehensive overview of the GAC event.
+- intent: previous_GAC_2018  
+  examples: |    
+     - What was the [schedule of GAC 2018]{"entity":"gac2018", "value":"S"}?
     - Can you provide the [schedule for GAC 2018]{"entity":"gac2018", "value":"S"}?
     - What was the [schedule of Global Alumni Convention 2018]{"entity":"gac2018", "value":"S"}?
     - Provide the [program of Alumni Convention 2018]{"entity":"gac2018", "value":"S"}.
@@ -156,7 +208,7 @@ nlu:
     - Give me the [GAC 2018]{"entity":"gac2018", "value":"EV"} events.
     - What were the [GAC 2018]{"entity":"gac2018", "value":"EV"} happenings?
     - Share the [events]{"entity":"gac2018", "value":"EV"} held at GAC 2018.
-    - Where did GAC 2018 take [place]{"entity": "gac2018", "value": "L"}?
+    - Where did GAC 2018 take [place]{"entity": "gac2018", "value": "L"} ?
     - What was the [venue]{"entity": "gac2018", "value": "L"} for GAC 2018?
     - Can you tell me the [location]{"entity": "gac2018", "value": "L"} of GAC 2018?
     - Give me the [address]{"entity": "gac2018", "value": "L"} for GAC 2018.
@@ -222,10 +274,6 @@ nlu:
     - Who were the [corporate sponsors]{"entity":"gac2018", "value":"SP"} for GAC 2018?
     - Provide the list of [financial contributors]{"entity":"gac2018", "value":"SP"} for GAC 2018.
     - Can you tell me about the [sponsorship organizations]{"entity":"gac2018", "value":"SP"} for GAC 2018?
-
-
-    
-    
 - intent: ask_event_info_2023
   examples: |
     - [What's the date and location]{"entity":"general_info", "value":"DL"} of the event?
@@ -236,137 +284,28 @@ nlu:
     - Provide an [overview]{"entity":"general_info", "value":"DESC"} of the event.
     - [Explain the GAC event]{"entity":"general_info", "value":"DESC"} to me in detail.
     - Can you tell me the [schedule]{"entity":"general_info", "value":"S"} for the convention?
-    - Where will the convention take [place]{"entity":"general_info", "value":"L"}?
+    - Where will the convention take [place]{"entity":"general_info", "value":"L"}?   
     - What is the [Global Alumni Convention]{"entity":"general_info", "value":"DESC"} event?
-    - Tell me about the [GAC]{"entity":"general_info", "value":"DESC"} event.
-    - [When and where]{"entity":"general_info","value":"DL"} can I attend the event?
-    - Tell me the [date and location]{"entity":"general_info","value":"DL"} for the convention.
-    - What's the [schedule]{"entity":"general_info", "value":"S"} for the event?
-    - Provide details about the event [location]{"entity":"general_info", "value":"L"}.
-    - Can you give me a [summary]{"entity":"general_info", "value":"DESC"} of the Global Alumni Convention?
-    - [When and where]{"entity":"general_info", "value":"DL"} is the event scheduled for?
-    - Briefly describe the [GAC]{"entity":"general_info", "value":"DESC"} event.
-    - Share information about the [date and location]{"entity":"general_info", "value":"DL"}.
-    - What is the event's [date and location]{"entity":"general_info", "value":"DL"}?
-    - Can you provide details on the convention's [schedule]{"entity":"general_info", "value":"S"}?
-    - Where is the event's [venue]{"entity":"general_info", "value":"L"}?
-    - Share [information about the Global Alumni Convention]{"entity":"general_info","value":"DESC"}.
-    - Tell me about the [GAC]{"entity":"general_info", "value":"DESC"} event.
-    - What's the [date and location]{"entity":"general_info", "value":"DL"} of the convention?
-    - What's on the [schedule]{"entity":"general_info", "value":"S"} for the event?
-    - [Describe]{"entity":"general_info", "value":"DESC"} the Global Alumni Convention for me.
-    - Tell me more about the [GAC]{"entity":"general_info", "value":"DESC"} event.
-    - [When is the event, and where will it be?]{"entity":"general_info","value":"DL"}
-    - Provide the [date and location]{"entity":"general_info", "value":"DL"} details.
-    - What can you tell me about the convention's [schedule]{"entity":"general_info", "value":"S"}?
-    - [Where]{"entity":"general_info","value":"L"} can I find the event?
-    - Share some [insights]{"entity":"general_info","value":"DESC"} about the Global Alumni Convention.
-    - Explain the [GAC]{"entity":"general_info", "value":"DESC"} event to me in detail.
-    - What's the [date and location]{"entity":"general_info", "value":"DL"} information for the event?
-    - Can you outline the [schedule]{"entity":"general_info", "value":"S"} for the convention?
-    - [Where]{"entity":"general_info","value":"L"} should I go for the event?
-    - Tell me [all about the Global Alumni Convention]{"entity":"general_info","value":"DESC"}.
-    - Provide a comprehensive [overview]{"entity":"general_info", "value":"DESC"} of the GAC event.
 
-- intent: ask_registration_2023
+
+
+- intent: ask_registration
   examples: |
     - How can I register for the event?
     - What is the registration fee?
     - Can you guide me through the registration process?
-    - Where do I sign up for the event?
-    - Tell me about the registration procedure.
-    - Is there a fee to attend the event?
-    - How do I get registered for 2023?
-    - What are the steps to complete the registration?
-    - When does the registration for 2023 start?
-    - Are there any discounts for early registration?
-    - What is the deadline for event registration?
-    - How can I pay for the registration fee?
-    - Do I need to create an account to register?
-    - Can I register multiple attendees at once?
-    - What payment methods are accepted for registration?
-    - Is there a student discount available for registration?
-    - How do I confirm my registration status?
-    - What information is required for the registration form?
-    - Is there a group registration option?
-    - Can I register on the day of the event?
-    - Are there any prerequisites for registration?
-    - Can I cancel or modify my registration?
-    - Tell me about the registration schedule.
-    - What is the registration process like?
-    - Are there any documents needed for registration?
-    - How can I get a copy of my registration receipt?
-    - Can you provide details on early bird registration?
-    - What is included in the registration package?
-    - Tell me about the registration support contact.
-    - Where can I find the online registration portal?
-    - How do I register as a speaker for the event?
 
-- intent: ask_networking_2023
+- intent: ask_networking
   examples: |
     - Are there networking sessions or meetups?
     - Can I connect with fellow alumni at the event?
     - How can I participate in networking activities?
-    - Is there a networking event planned?
-    - Tell me about the networking opportunities.
-    - Are there any alumni gatherings?
-    - Can I meet and network with other attendees?
-    - How do I get in touch with other participants?
-    - What's the networking schedule like?
-    - Are there social events for networking?
-    - Can you provide details about the alumni meetup?
-    - What are the options for making professional connections?
-    - Are there any informal networking opportunities?
-    - How can I build a network with other guests?
-    - Tell me about the alumni networking session.
-    - Is there a dedicated networking space?
-    - Are there meet and greet sessions?
-    - Can I exchange contact information with others?
-    - What's the format of the networking activities?
-    - Are there specific events for connecting with peers?
-    - How do I find like-minded individuals?
-    - What's the networking environment like?
-    - Can you guide me on networking strategies?
-    - What's the best way to approach networking?
-    - Are there any guided networking sessions?
-    - How can I maximize my networking experience?
-    - Tell me about the socializing opportunities.
-    - Can you provide tips for effective networking?
-    - Are there opportunities to discuss common interests?
-    - How can I connect with professionals at the event?
 
 - intent: ask_food
   examples: |
     - Do you cater to dietary restrictions?
     - What food options will be available during the event?
     - Can I request a special meal?
-    - Are there vegetarian food options?
-    - Is there a vegan menu?
-    - I have allergies; can you accommodate them?
-    - What's on the menu for the event?
-    - Can I see the food choices?
-    - Tell me about the meal options.
-    - Any gluten-free food available?
-    - How do I order a specific meal?
-    - Are there any kosher food options?
-    - Do you offer halal meals?
-    - Can I customize my meal?
-    - What are the dietary choices?
-    - I'm a vegetarian; can I eat at the event?
-    - Is there a menu for people with dietary needs?
-    - Can I choose my own ingredients?
-    - What are the food restrictions?
-    - Tell me about the catering options.
-    - Can I bring my own food?
-    - Are there healthy meal choices?
-    - How do I request a special diet?
-    - Any options for people with allergies?
-    - I need a vegan meal; is that possible?
-    - What's the policy on dietary preferences?
-    - Can I order a specific dish?
-    - Are there dairy-free alternatives?
-    - How do I get a vegetarian meal?
-    - Is there a menu for those with dietary restrictions?
 
 
 - intent: ask_transportation
@@ -374,34 +313,6 @@ nlu:
     - Is there parking available at the event venue?
     - How do I get to the convention from the airport?
     - What transportation options are there in the area?
-    - Can you tell me about the public transportation near the venue?
-    - How far is the convention center from the train station?
-    - Are there shuttle services from the airport to the event location?
-    - Where can I find information about car rentals?
-    - What's the best way to travel to the conference from the city center?
-    - Is there a bus stop close to the convention center?
-    - Do you have details on parking fees at the event venue?
-    - What are the transportation options for getting around the city?
-    - How long does it take to walk from the hotel to the conference center?
-    - Is there a taxi stand at the venue?
-    - Are there any rideshare services available in the area?
-    - Tell me about the parking facilities at the convention.
-    - What's the nearest subway station to the event location?
-    - Can I take a bike to the conference center?
-    - How do I get to the convention using public transit?
-    - Is there a tram or light rail system nearby?
-    - Where can I find information on event shuttle schedules?
-    - What's the distance from the airport to the convention center?
-    - Are there any bike rental stations near the venue?
-    - Can you recommend a reliable transportation service from the airport?
-    - Is parking free for event attendees?
-    - How much does it cost to park at the convention?
-    - Can I use my metro card to travel to the conference?
-    - Are there any carpool options for attendees?
-    - Where can I find a map of local transportation routes?
-    - How do I book a shuttle from the airport to the event?
-    - Is there a monorail system in the vicinity?
-    - What's the walking route from the hotel to the convention center?
 
 
 - intent: ask_sponsors
@@ -409,132 +320,578 @@ nlu:
     - Who are the event sponsors and exhibitors?
     - How can my company become a sponsor?
     - Tell me about the exhibitor booths.
-    - List of sponsors for the event.
-    - Are there any premium sponsors?
-    - Tell me about the companies supporting the event.
-    - How do I get information about the event's sponsors?
-    - Which companies are exhibiting at the event?
-    - Can you provide details about the event's exhibitors?
-    - Give me information about sponsorship opportunities.
-    - Who are the main financial backers of the event?
-    - What are the sponsorship packages available?
-    - Tell me about the sponsor registration process.
-    - How can I get involved as a sponsor?
-    - Are there any sponsorship benefits?
-    - What's the cost of becoming a sponsor?
-    - Explain the sponsorship tiers.
-    - Tell me about the platinum sponsors.
-    - What are the perks of being an event sponsor?
-    - Share details about the exhibitor program.
-    - Can you list the event's major sponsors?
-    - How can my company contribute to the event as a sponsor?
-    - Explain the sponsorship benefits for my business.
-    - What's the process to become an event sponsor?
-    - Who are the current event sponsors?
-    - Tell me about the event's sponsorship options.
-    - Provide information about exhibitor opportunities.
-    - How can I partner with the event as a sponsor?
-    - List companies participating in the event.
-    - Give me details about becoming a sponsor at the event.
-    - Explain the exhibitor registration process.
+
 
 - intent: ask_policies
   examples: |
     - What are the event's terms and conditions?
     - Can you provide information about the event guidelines?
     - Are there any rules I should be aware of?
-    - Tell me about the terms and conditions for the event.
-    - I'd like to know the event's policies.
-    - Where can I find information about the rules?
-    - Explain the event's guidelines to me.
-    - What are the dos and don'ts for this event?
-    - Provide details on the event's terms and conditions.
-    - Share the event's policies with me.
-    - What should I be aware of regarding the event's rules?
-    - I need to understand the event's guidelines.
-    - Tell me about any event regulations.
-    - Are there any restrictions for the event?
-    - I want to know the event's terms.
-    - Can you list the event's policies?
-    - Where can I find the event guidelines?
-    - Please clarify the event's terms and conditions.
-    - Share the event's rules and regulations.
-    - What are the event's requirements?
-    - Tell me about the event's do's and don'ts.
-    - What should I follow during the event?
-    - Explain the event's code of conduct.
-    - Can you brief me on the event's terms and conditions?
-    - What are the event's guidelines and policies?
-    - Share the event's terms of service.
-    - Where can I read about the event's terms and conditions?
-    - I'd like to understand the event's rules.
-    - Provide me with information on the event's policies.
-    - Tell me about the event's event's terms and guidelines.
+
 
 - intent: ask_technical_support
   examples: |
     - I'm having trouble with the event app. Can you help?
     - How do I access the virtual event platform?
     - Who do I contact for technical issues?
-    - The event app is not working for me. What should I do?
-    - I can't log in to the virtual event platform. Help!
-    - Where can I find technical assistance for the event?
-    - My virtual event login isn't working. What's the solution?
-    - There's a technical problem with the event platform.
-    - How can I troubleshoot issues with the event app?
-    - I'm experiencing technical difficulties with the event.
-    - Can you assist with technical problems related to the event?
-    - What's the support contact for event app issues?
-    - I need technical support for the virtual event.
-    - My event app crashes when I open it. Help!
-    - I'm unable to navigate the virtual event platform. What to do?
-    - Who can I reach out to for technical assistance?
-    - The event app freezes on my device. Any solutions?
-    - I'm encountering technical glitches in the event app.
-    - How can I get technical help for the virtual event?
-    - My virtual event access is restricted. What's the fix?
-    - I can't find my way around the event app. Assistance, please.
-    - There are technical issues with the event. Can you fix them?
-    - I need technical troubleshooting for the event platform.
-    - The event app is giving me errors. Can you assist?
-    - What's the contact point for event technical support?
-    - I'm getting an error message in the virtual event. Help!
-    - How can I resolve technical problems with the event app?
-    - My virtual event experience is not smooth. Can you help?
-    - Who should I contact for technical issues during the event?
-    - I'm facing technical issues with the event app. What now?
-    - Is there a helpline for technical support during the event?
+
 
 - intent: give_feedback
   examples: |
     - I have some feedback about the event.
     - Can I provide suggestions to improve the convention?
     - How do I share my thoughts about the event?
-    - I'd like to give some feedback.
-    - Is there a way to submit feedback on the event?
-    - I want to provide my thoughts on the convention.
-    - Where can I share my feedback about the event?
-    - How can I offer suggestions for the event?
-    - I'd like to give my opinion on the event.
-    - What's the process for sharing feedback?
-    - I have some ideas to improve the event.
-    - Can I give my feedback on the convention?
-    - How can I share my suggestions for the event?
-    - Is there a way to express my thoughts on the event?
-    - I'd like to share my feedback on the event.
-    - What's the feedback submission procedure?
-    - I want to offer suggestions for the convention.
-    - How do I provide my feedback on the event?
-    - I'd like to make some recommendations for improvement.
-    - Can I provide input to enhance the event?
-    - How can I give my feedback on the convention?
-    - I have some constructive feedback about the event.
-    - Is there a feedback channel for the event?
-    - Where can I provide my suggestions for improvement?
-    - I'd like to submit my thoughts on the event.
-    - How do I communicate my feedback about the convention?
-    - I want to offer my input to make the event better.
-    - What's the best way to share my feedback on the event?
-    - Can I give my recommendations for enhancing the convention?
-    - How can I give my feedback about the event's organization?
 
+- intent: event_info
+  examples: |
+    - What all events will be organised on that day?
+    - What will be the events on the GAC 2023?
+    - What events are being planned for GAC 2023?
+    - How the alumni will be welcomed?
+    - What events are being planned for welcoming the Alumni?
+
+
+- intent: gac_objective
+  examples: |
+    - what is the aim and objective of GAC?
+    - what is the aim of GAC?
+    - What is the objective of GAC 2023?
+    - What is special about GAC 2023?
+    - Is there something special about GAC 2023?
+
+- intent: 
+  examples: |
+    -
+
+
+
+# - intent: common_question
+#   examples: |
+#     - Where is MNNIT college present?
+#     - Tell me something about MNNIT
+#     - What is MNNIT?
+#     - Name a college present in Allahabad
+#     - What is full form of MNNIT?
+
+# - intent: moreaboutcollege
+#   examples: |
+#     - MNNIT 
+#     - mnnit college
+#     - Inform about MNNIT college
+#     - inform about mnnit college
+#     - tell me something more about MNNIT Allahabad
+#     - Is MNNIT Allahabad a good college?
+#     - Is MNNIT a good college for engineering?
+#     - When MNNIT college is established?
+#     - How old is the MNNIT Allahabad?
+#     - Is MNNIT a Regional Engineering Colleges of India?
+#     - Is MNNIT a Government or Private college?
+# - intent: club_club
+#   examples: |
+#     - What are clubs present in MNNIT?
+#     - Which type of clubs are present in college?
+#     - What are different activities happen in MNNIT?
+#     - Mention the name of clubs of MNNIT.
+#     - clubs of mnnit college
+#     - Which type of clubs are present in MNNIT college?
+
+# - intent: search_provider
+#   examples: |
+#     - I need a [hospital] (facility_type)
+#     - I need a [clinic] (facility_type)
+#     - find me a nearby [hospital] (facility_type)
+#     - show me home health agencies (facility_type)
+#     - [hospital] (facility_type)
+#     - find me a nearby [hospitals] (facility_type) in [San Francisco] (locations)
+#     - [hospitals] (facility_type) in [Delhi] (locations)
+#     - I need a [home health agency](facility_type)
+#     - there is any hospitals 
+#     - clinics
+#     - medical shop
+
+# - intent: benfit_club
+#   examples: |
+#     - What are the facility of exploring different fields in MNNIT?
+#     - What are the benefits of joining club ?
+#     - What are advantages of joining different club?
+#     - Is there any benefit of joining different club?
+#     - Is there any advantage of participating different club?
+#     - Is it worth to work in different clubs of MNNIT? 
+#     - What are the reasons for joining a club?
+#     - Why is it important to join clubs in college?
+#     - Should you join clubs in college?
+
+# - intent: explore_campus
+#   examples: |
+#     - Tell me someting about campus of MNNIT college
+#     - How the campus of MNNIT looks like?
+#     - Is campus life of mnnit college good?
+#     - How was your life at MNNIT?
+#     - Is campus of MNNIT colloge beautiful?
+#     - What is the campus area of MNNIT college?
+
+# - intent: lit_club
+#   examples: |
+#     - What is Literary Cub?
+#     - Is there any literary club of MNNIT college ?
+#     - Tell me something about literary club
+#     - Is literary club of mnnit college good?
+#     - What are the benefits of joining Literary club ?
+#     - What does we do in Literary club ?
+
+# - intent: cafetarea
+#   examples: |
+#     - Is there any good canteen present in campus area?
+#     - Can you tell me about canteen and shops present in campus area?
+#     - Which restaurants are present near MNNIT Allahabad?
+#     - Is stationary shop are present in campus area?
+#     - Can we order food from near by restaurants in mnnit college ?
+
+# - intent: boyshostel
+#   examples: |
+#     - How many boys hostels are there in Mnnit Allahabad?
+#     - What facilities are provide in boys hostel of mnnit allahabad?
+#     - Tell me something about boys hostel
+#     - How rooms are alloted in mnnit college?
+#     - What are the condition of boys hostel in mnnit college?
+#     - Is the condition of boys hostel good?
+
+# - intent: girlshostel
+#   examples: |
+#     - How many girls hostels are there in Mnnit Allahabad?
+#     - What facilities are provide in girls hostel of mnnit allahabad?
+#     - Tell me something about girls hostel
+#     - How rooms are alloted for girls in mnnit college?
+#     - What are the condition of girls hostel in mnnit college?
+#     - Is the condition of girls hostel good?
+
+# - intent: library
+#   examples: |
+#     - Is there any library present in MNNIT college?
+#     - How many books are present in library of MNNIT college?
+#     - How many e-journals and conference papers  are present in library of MNNIT college?
+# - intent: MNNIT_Robotics
+#   examples: |
+#     - Robotics club
+#     - robotics club
+#     - roboticsclub
+#     - robot club
+#     - aro club
+#     - Aeronautical club
+#     - Aero club
+#     - tell me something about robotics club
+#     - Ml/A 
+#     - ml
+#     - ai
+#     - machine learning
+#     - artificial intelligence
+#     - robot
+#     - bots
+#     - machines
+#     - best club
+#     - tech club
+#     - hardware club
+#     - Data Science club
+#     - Artificial Intelligence club 
+#     - machine learning club
+#     - there is any club inside the sac building
+#     - sac building club
+
+# - intent: Department
+#   examples: |
+#     - department name
+#     - how many Deaprtment in the college
+#     - How many Accademic department is present in the college
+#     - How many Degree courses are available in the mnnit
+#     - How many Degree courses are available in the college
+#     - How many Degree courses are available in the campus
+#     - Degree courses
+#     - how many branches are present
+#     - What are the branches present ?
+
+# - intent: Canteen
+#   examples: |
+#     - how many canteen in the campus
+#     - canteen 
+#     - cafe
+#     - food shop
+#     - there is any place in the campus where you can buy delicious food
+#     - Delicious food center
+#     - how many canteen is available in the campus
+
+#   # Sport Areas
+# - intent: Play_Grounds
+#   examples: |
+#     - Athelete Ground
+#     - Ground
+#     - cricket ground
+#     - tennis ground
+# - intent: basketball
+#   examples: |
+#     - there is any basket ball court in the campus
+#     - basket ball court
+#     - court
+#     - new basketball court
+#     - old basketball court
+
+# - intent: Gym
+#   examples: |
+#     - there is any gym 
+#     - gym for boys 
+#     - gym for girls
+#     - exercise room 
+#     - gym
+#     - there is any place in the campus where you can do body building exercise
+
+# - intent: Cordinators_Robotics
+#   examples: |
+#     - head of robotics club
+#     - mentors of robotics club
+#     - mentors of Robtoics club
+#     - who is anurag gupta
+#     - Anurag Gupta
+#     - Purushottam Kumar Singh
+#     - who is the head of roboticsclub
+#     - who is the head of Robotics Club
+#     - Who is the head of robotics club
+#     - who is the head of robotics club?
+#     - Mehul Singhal
+#     - coordinators of robotics club
+#     - coordinator of hardware club
+#     - Coordinators of Robotics Club
+#     - coordinator Name of robotics club
+#     - cordinator Name of hardware club
+#     - Final Year cordinator Name
+#     - Who is the final year cordinator of hardware club
+#     - Who is the final year cordinator of robotics club
+#     - Who is the coordinator of robotics club?
+#     - Can you tell me the name of the robotics club coordinator?
+#     - How can I contact the robotics club coordinator
+#     - What are the responsibilities of the robotics club coordinator?
+#     - Who is in charge of the robotics club
+#     - Can you tell me the name of the robotics club coordinator
+#     - What is the email address of the robotics club coordinator
+#     - How can I get in touch with the robotics club coordinator?
+#     - What are the responsibilities of the robotics club coordinator?
+#     - Who is leading the robotics club this year?
+#     - What is the name of the person in charge of the robotics club?
+#     - Who is responsible for organizing the robotics club events?
+#     - Who can I contact for more information about the robotics club?
+#     - Is there a faculty advisor for the robotics club?
+#     - What is the role of the robotics club coordinator?
+#     - Who is managing the robotics club budget?
+#     - How long has the current robotics club coordinator been in charge?
+#     - Who is the point of contact for the robotics club?
+#     - Who is the robotics club president?
+#     - Who are the other members of the robotics club leadership team?
+#     - What is the background of the robotics club coordinator?
+#     - Who is the coordinator of the Robotics Club?
+#     - Can you tell me the name of the Robotics Club coordinator?
+#     - What is the email address of the Robotics Club coordinator?
+#     - How can I get in touch with the Robotics Club coordinator?
+#     - What are the responsibilities of the Robotics Club coordinator?
+#     - Who is leading the Robotics Club this year?
+#     - What is the name of the person in charge of the Robotics Club?
+#     - Who is responsible for organizing the Robotics Club events?
+#     - Who can I contact for more information about the Robotics Club?
+#     - Is there a faculty advisor for the Robotics Club?
+#     - What is the role of the Robotics Club coordinator?
+
+# - intent: Director
+#   examples: |
+#     - Director of MNNIT
+#     - Director
+#     - person name who is govern rule in the campus
+#     - Director Names
+#     - Whos is the Director of MNNIT
+#     - Who is the Director of college
+#     - Who is the Director of MNNIT Campus
+# - intent: placement
+#   examples: |
+#     - What is the salary trend of MNNIT Allahabad Placements?
+#     - How many students got placed in MNNIT Allahabad Placements 2021?
+#     - What was the highest CTC offered during MNNIT Allahabad Placements 2021? 
+#     - What are placement statistics of MNNIT Allahabad? 
+#     - How is placement in MNNIT?
+#     - How is placement?
+#     - What is highest package? 
+#     - placement
+# - intent: Event
+#   examples: |
+#     - How many Event is organise in the MNNIT Campus.
+#     - Event
+#     - which Fest is best of MNNIT.
+#     - There is any tech fest 
+#     - There is any cultural fest.
+#     - Give the name of Popular fest of MNNIT.
+#     - Popular Fest
+# - intent: Image of MNNIT
+#   examples: |
+#     - Image of MNNIT
+#     - Academic Building of MNNIT Campus
+#     - Position
+#     - academic building
+#     - administration building
+#     - NIRF ranking 
+#     - Organization
+# - intent: thanks
+#   examples: |
+#     - thankyou
+#     - thanks
+#     - thank you
+#     - Thanks
+#     - Thank You
+#     - that's it
+#     - no thanks
+#     - i am good with it
+#     - thanks for your help
+# - intent: Multi_Purpose_hall
+#   examples: |
+#     - what is the multi-purpose hall
+#     - what is the mp hall
+#     - What is the MP hall
+#     - What is the full form of MP hall
+#     - What is the use of MP hall
+#     - what is the use  of multi-purpose hall
+#     - What is the use of Multi-purpose hall
+#     - place where event organised
+#     - event organised
+# - intent: askplaces
+#   examples: |
+#     - Can you tell me some hospitals nearby MNNIT Allahabad?
+#     - Tell me some hospitals nearby MNNIT Allahabad.
+#     - Tell me some medical store nearby MNNIT Allahabad .
+#     - Is there any good hospitals nearby MNNIT Allahabad ?
+#     - Which hospitals are present nearby MNNIT , Allahabad?
+# - intent: CSE_dept
+#   examples: |
+#     - Computer Science and Engineering Department .
+#     - What kind of facilities does the CSE or Computer Science and Engineering Department have?
+#     - Are there any research labs in the CSE or Computer Science and Engineering Department?
+#     - Resources are available to students in the CSE or Computer Science and Engineering Department
+#     - Professors in the CSE or Computer Science Department
+#     - How experienced are the faculty members in the CSE or Computer Science and Engineering Department?
+#     - The CSE or Computer Science and Engineering Department offers .
+#     - Scope of the CSE or Computer Science and Engineering Department .
+#     - Undergraduate programs offered by the CSE or Computer Science and Engineering Department.
+#     - Tell me about the graduate programs in CSE or Computer Science and Engineering .
+#     - Does the CSE or Computer Science and Engineering Department offer any research-based programs?
+#     - How is Computer Science and Engineering Department at MNNIT ?
+#     - About faculty of CSE or Computer Science and Engineering depatment .
+#     - About faculty of Computer Science and Engineering Department .
+#     - How is Computer Science and Engineering Department at Motilal Nehru National Institute of Technology ?
+#     - CS at Motilal Nehru National Institute of Technology or MNNIT .
+#     - Computer Science at MNNIT or Motilal Nehru National Institute of Technology .
+
+# - intent: CSE_dept_HOD
+#   examples: |
+#     - Who is the head of department of Computer Science and Engineering Department ?
+#     - HOD of Computer Science and Engineering Department .
+#     - Head of department of CS or CSE .
+#     - Faculty who is HOD of CSE Or Computer Science and Engineering Department at MNNIT or Motilal Nehru National Institute of Technology .
+#     - What is the name of the head of the CSE department?
+#     - Head of Department of CSE or Computer Science and Engineering depatment 
+
+# - intent: ECE_dept
+#   examples: |
+#     - Facilities does the ECE or Electronics and Communication Engineering Department have?
+#     - Electronics and Communication Engineering .
+#     - Research labs in the ECE or Electronics and Communication Engineering Department
+#     - Resources are available to students in the ECE Department
+#     - Professors in the ECE Department?
+#     - Faculty members in the ECE Department
+#     - The ECE or Department offers
+#     - Tell me about the ECE Department at Motilal Nehru National Institute of Technology or MNNIT .
+#     - Scope of the ECE or Electronics and Communication Engineering Department?
+#     - Undergraduate programs offered by the ECE Department .
+#     - Tell me about the graduate programs in ECE or Electronics and Communication Engineering .
+#     - Does the ECE or Electronics and Communication Engineering Department offer any research-based programs?
+#     - How is Electronics and Communication Engineering Department at MNNIT ?
+#     - About faculty of ECE or Electronics and Communication Engineering depatment .
+#     - About faculty of Electronics and Communication Engineering Department .
+#     - Electronics and Communication Engineering at Motilal Nehru National Institute of Technology 
+#     - EC at Motilal Nehru National Institute of Technology or MNNIT .
+#     - Electronics at MNNIT or Motilal Nehru National Institute of Technology .
+
+# - intent: ECE_dept_HOD
+#   examples: |
+#     - Who is the head of department of Electronics and Communication Engineering Department ?
+#     - HOD of Electronics and Communication Engineering Department .
+#     - Head of department of Electronics and Communication Engineering Department .
+#     - Faculty who is HOD of Electronics and Communication Engineering Department at MNNIT or Motilal Nehru National Institute of Technology .
+#     - What is the name of the head of the ECE department?
+#     - Head of Department of ECE or Electronics and Communication Engineering Department .
+
+# - intent: EE_dept
+#   examples: |
+#     - Facilities does the EE or Electrical Engineering Department have?
+#     - Electrical Engineering .
+#     - Research labs in the ECE or EE or Electrical Engineering Department
+#     - Resources are available to students in the EE or Electrical Engineering Department
+#     - Professors in the EE or Electrical Engineering Department?
+#     - Faculty members in the EE or Electrical Engineering Department
+#     - The EE or Electrical Engineering Department offers
+#     - Tell me about the EE or Electrical Engineering Department at Motilal Nehru National Institute of Technology or MNNIT .
+#     - Scope of the EE or Electrical Engineering?
+#     - Undergraduate programs offered by the EE or Electrical Department?
+#     - Tell me about the graduate programs in EE or Electrical Engineering?
+#     - Does the EE or Electrical Engineering Department offer any research-base programs?
+#     - How is EE or Electrical Engineering Department at MNNIT ?
+#     - About faculty of EE or Electrical Engineering depatment .
+#     - How is EE or Electrical Engineering at Motilal Nehru National Institute of Technology ?
+#     - EE at Motilal Nehru National Institute of Technology or MNNIT .
+#     - Electrical at MNNIT or Motilal Nehru National Institute of Technology .
+
+# - intent: EE_dept_HOD
+#   examples: |
+#     - Who is the head of department of EE or Electrical Engineering Department ?
+#     - HOD of Electrical Engineering Department .
+#     - Head of department of EE or Electrical Engineering Department .
+#     - Faculty who is HOD of EE Electrical Engineering Department at MNNIT or Motilal Nehru National Institute of Technology .
+#     - What is the name of the head of the EE or Electrical Engineering Department department?
+#     - Head of Department of EE or Electrical Engineering Department .
+
+# - intent: ME_dept
+#   examples: |
+#     - Facilities does the ME or Mechanical Engineering Department have.
+#     - Mechanical Engineering .
+#     - Research labs in the ME or Mechanical Engineering Department
+#     - Resources are available to students in the ME or Mechanical Engineering Department
+#     - Professors in the ME or Mechanical Engineering Department .
+#     - Faculty members in the ME or Mechanical Engineering Department .
+#     - The ME or Mechanical Engineering Department offers .
+#     - Tell me about the ME or Mechanical Engineering Department Department at Motilal Nehru National Institute of Technology or MNNIT .
+#     - Scope of the ME or Mechanical Engineering Department
+#     - Undergraduate programs offered by the ME or Mechanical Engineering Department
+#     - Tell me about the graduate programs in ME or Mechanical Engineering Department
+#     - Does the ME or Mechanical Engineering Department offer any research-base programs?
+#     - How is ME or Mechanical Engineering Department at MNNIT ?
+#     - About faculty of ME or Mechanical Engineering Department depatment .
+#     - How is ME or Mechanical Engineering Department at Motilal Nehru National Institute of Technology ?
+#     - ME at Motilal Nehru National Institute of Technology or MNNIT .
+#     - Mechanical at MNNIT or Motilal Nehru National Institute of Technology .
+
+
+# - intent: ME_dept_HOD
+#   examples: |
+#     - Who is the head of department of ME or Mechanical Engineering Department ?
+#     - HOD of Mechanical Engineering Department .
+#     - Head of department of ME or Mechanical Engineering Department .
+#     - Faculty who is HOD of ME or Mechanical Engineering Department at MNNIT or Motilal Nehru National Institute of Technology .
+#     - What is the name of the head of the ME or Mechanical Engineering Department department?
+#     - Head of Department of ME or Mechanical Engineering Department .
+
+# - intent: ChE_Dept
+#   examples: |
+#     - Facilities does the ChE or Chemical Engineering Department have.
+#     - Chemical Engineering .
+#     - Research labs in the ChE or Chemical Engineering Department
+#     - Resources are available to students in the ChE or Chemical Engineering Department
+#     - Professors in the ChE or Chemical Engineering Department .
+#     - Faculty members in the ChE or Chemical Engineering Department .
+#     - The ChE or Chemical Engineering Department offers .
+#     - Tell me about the ChE or Chemical Engineering Department Department at Motilal Nehru National Institute of Technology or MNNIT .
+#     - Scope of the ChE or Chemical Engineering Department
+#     - Undergraduate programs offered by the ChE or Chemical Engineering Department
+#     - Tell me about the graduate programs in ChE or Chemical Engineering Department
+#     - Does the ChE or Chemical Engineering Department offer any research-base programs?
+#     - How is ChE or Chemical Engineering Department at MNNIT ?
+#     - About faculty of ChE or Chemical Engineering Department depatment .
+#     - How is ChE or Chemical Engineering Department at Motilal Nehru National Institute of Technology ?
+#     - Chemical at MNNIT or Motilal Nehru National Institute of Technology .
+
+# - intent: ChE_Dept_HOD
+#   examples: |
+#     - Who is the head of department of ChE or Chemical Engineering Department ?
+#     - HOD of Chemical Engineering Department .
+#     - Head of department of ChE or Chemical Engineering Department .
+#     - Faculty who is HOD of ChE or Chemical Engineering Department at MNNIT or Motilal Nehru National Institute of Technology .
+#     - What is the name of the head of the ChE or Chemical Engineering Department department?
+#     - Head of Department of ChE or Chemical Engineering Department .
+
+# - intent: CE_dept
+#   examples: |
+#     - Facilities does the CE or Civil Engineering Department have.
+#     - Civil Engineering .
+#     - Research labs in the CE or Civil Engineering Department
+#     - Resources are available to students in the CE or Civil Engineering Department
+#     - Professors in the CE or Civil Engineering Department .
+#     - Faculty members in the CE or Civil Engineering Department .
+#     - CE or Civil Engineering offers .
+#     - Tell me about the CE or Civil Engineering Department Department at Motilal Nehru National Institute of Technology or MNNIT .
+#     - Scope of the CE or Civil Engineering Department
+#     - Undergraduate programs offered by the CE or Civil Engineering Department
+#     - Tell me about the graduate programs in CE or Civil Engineering Department
+#     - Does the CE or Civil Engineering Department offer any research-base programs?
+#     - How is CE or Civil Engineering Department at MNNIT ?
+#     - About faculty of CE or Civil Engineering depatment .
+#     - How is CE or Civil Engineering Department at Motilal Nehru National Institute of Technology ?
+#     - Civil at MNNIT or Motilal Nehru National Institute of Technology .
+
+# - intent: CE_dept_HOD
+#   examples: |
+#     - Who is the head of department of CE or Civil Engineering Department ?
+#     - HOD of Civil Engineering Department .
+#     - Head of department of CE or Civil Engineering Department .
+#     - Faculty who is HOD of CE or Civil Engineering Department at MNNIT or Motilal Nehru National Institute of Technology .
+#     - What is the name of the head of the CE or Civil Engineering Department department?
+#     - Head of Department of CE or Civil Engineering Department .
+
+# - intent: BE_dept
+#   examples: |
+#     - Facilities does the Biotechnology Engineering Department have.
+#     - Biotech .
+#     - Biotechnology Engineering .
+#     - Research labs in the Biotechnology Engineering Department
+#     - Resources are available to students in the Biotechnology Engineering Department
+#     - Professors in the Biotechnology Engineering Department .
+#     - Faculty members in the Biotechnology Engineering Department .
+#     - Biotechnology Engineering offers .
+#     - Tell me about the Biotechnology Engineering Department Department at Motilal Nehru National Institute of Technology or MNNIT .
+#     - Scope of the Biotechnology Engineering Department
+#     - Undergraduate programs offered by the Biotechnology Engineering Department
+#     - Tell me about the graduate programs in Biotechnology Engineering Department
+#     - Does the Biotechnology Engineering Department offer any research-base programs?
+#     - How is Biotechnology Engineering Department at MNNIT ?
+#     - About faculty of Biotechnology Engineering depatment .
+#     - How is Biotechnology Engineering Department at Motilal Nehru National Institute of Technology ?
+#     - Biotech at MNNIT or Motilal Nehru National Institute of Technology .
+
+# - intent: BE_dept_HOD
+#   examples: |
+#     - Who is the head of department of Biotechnology Engineering Department ?
+#     - HOD of Biotechnology Engineering Department .
+#     - Head of department of Biotechnology Engineering Department .
+#     - Faculty who is HOD of Biotechnology Engineering Department at MNNIT or Motilal Nehru National Institute of Technology .
+#     - What is the name of the head of the Biotechnology Engineering Department department?
+#     - Head of Department of Biotechnology Engineering Department .
+
+# - intent: PIE_dept
+#   examples: |
+#     - Facilities does the Production and Industrial Engineering Department have.
+#     - PIE or Production and Industrial Engineering Department
+#     - Production Engineering.
+#     - Production and Industrial Engineering.
+#     - Research labs in the Production and Industrial Engineering Department
+#     - Resources are available to students in the Production and Industrial Engineering or production Department
+#     - Professors in the Production and Industrial Engineering Department .
+#     - Faculty members in the Production and Industrial Engineering Department .
+#     - Production and Industrial Engineering Engineering offers .
+#     - Tell me about the Production and Industrial Engineering Department at Motilal Nehru National Institute of Technology or MNNIT .
+#     - Scope of the Production and Industrial Engineering Department
+#     - Undergraduate programs offered by the Production and Industrial Engineering Department
+#     - Tell me about the graduate programs in Production or Production and Industrial Engineering Department
+#     - Does the Production and Industrial Engineering Department offer any research-base programs?
+#     - How is Production and Industrial Engineering Department at MNNIT ?
+#     - About faculty of Production and Industrial Engineering depatment .
+#     - How is Production and Industrial Engineering Department at Motilal Nehru National Institute of Technology ?
+#     - Production at MNNIT or Motilal Nehru National Institute of Technology .
+
+# - intent: PIE_dept_HOD
+#   examples: |
+#     - Who is the head of department of PIE or Production and Industrial Engineering Department Department ?
+#     - HOD of Production and Industrial Engineering Department .
+#     - Head of department of PIE or Production and Industrial Engineering Department Department .
+#     - Faculty who is HOD of PIE or Production and Industrial Engineering Department at MNNIT or Motilal Nehru National Institute of Technology .
+#     - What is the name of the head of the PIE or Production and Industrial Engineering Department department?
+#     - Head of Department of PIE or Production and Industrial Engineering Department .
