@@ -531,6 +531,256 @@ nlu:
     - Tell me [all about the Global Alumni Convention]{"entity":"general_info","value":"DESC"}.
     - Provide a comprehensive [overview]{"entity":"general_info", "value":"DESC"} of the GAC event.
 
+- intent: gac_2023_donations
+  examples: |
+    - Who gave the donations from 1998 batch?
+    - List of those who gave the donations from 1998 batch?
+    - List of all the Alumni who gave donations for 1998 batch?
+    - Names of those who gave donations to college from 1998 batch?
+    - Names of those who provided donations to college from 1998 batch?
+    - Who from the 1998 batch made a donation?
+    - Can you tell me the names of 1998 batch alumni who contributed to donations?
+    - Provide a list of donors from the 1998 batch.
+    - I'm interested in knowing which 1998 batch alumni donated.
+    - Tell me about the 1998 batch alumni who made contributions.
+    - Give me the names of those who gave donations from the 1998 batch.
+    - I want to find out who donated from the 1998 batch.
+    - Who are the 1998 batch alumni donors?
+    - Provide information about 1998 batch donations and donors.
+    - List the names of 1998 batch alumni who participated in donations.
+    - Can you provide the names of donors from the 1998 batch?
+    - I'm interested in learning about 1998 batch alumni who contributed to donations.
+    - Tell me about the 1998 batch alumni who made donations.
+    - Give me a list of donors from the 1998 batch.
+    - Who from the 1998 batch donated to the cause?
+    - I'd like to know which 1998 batch alumni gave donations.
+    - Share information about the 1998 batch alumni donors.
+    - Provide a list of names from the 1998 batch who participated in donations.
+    - Tell me who the donors are from the 1998 batch.
+    - List the 1998 batch alumni who donated to the organization.
+    - Who are the 1998 batch alumni donors?
+    - I'm curious about the 1998 batch donors. Can you help?
+    - Who contributed to donations from the 1998 batch?
+    - Give me information about the 1998 batch donors and their names.
+    - Share details about the 1998 batch alumni who supported the cause.
+    - Tell me about the 1998 batch alumni who generously donated.
+    - I'd like to learn about the 1998 batch and their donations.
+    - Can you provide the names of donors specifically from the 1998 batch?
+    - List the 1998 batch alumni who participated in fundraising efforts.
+    - Who in the 1998 batch made contributions to the organization?
+    
+- intent: gac_2023_organizing
+  examples: |
+   - Who are the part of organizing committee of GAC 2023?
+   - List all the memners of organizing team of GAC 2023?
+   - Give me  the names of all the members of GAC 2023?
+   - Provide me the names of organizers of GAC 2023?
+   - Who is on the organizing team for GAC 2023?
+   - Can you provide a list of members in the GAC 2023 organizing team?
+   - Tell me about the team responsible for organizing GAC 2023.
+   - I'd like to know the names of the organizers for the GAC 2023 event.
+   - Share information about the GAC 2023 organizing committee.
+   - Give me details about the people behind the scenes of GAC 2023.
+   - Who are the key members of the GAC 2023 organization?  
+   - Provide a list of individuals involved in planning GAC 2023.
+   - Tell me about the team members responsible for GAC 2023.
+   - List the names of the organizers for the GAC 2023 conference.
+   - Who are the event planners for GAC 2023?
+   - I'm interested in learning about the team behind GAC 2023. Can you help?
+   - Share details about the organizing team of GAC 2023.
+   - Who is responsible for coordinating GAC 2023?
+   - Give me information about the GAC 2023 organizing team and their roles.
+   - Tell me about the individuals who are organizing GAC 2023.
+   - I'd like to learn about the GAC 2023 organizing committee members.
+   - Can you provide the names of the team members working on GAC 2023?
+   - List the key people involved in planning GAC 2023.
+   - Who is part of the organizing team for the GAC 2023 conference?
+   - Tell me about the team leading the organization of GAC 2023.
+   - Provide information about the individuals in charge of GAC 2023.
+   - Who is overseeing the planning and execution of GAC 2023?
+   - I'd like to get to know the people responsible for GAC 2023. Can you share their names?
+   - List the event organizers for GAC 2023.
+   - Can you give me an overview of the team behind GAC 2023?
+   - Share details about the roles and responsibilities of the GAC 2023 organizing team.
+   - Who are the key players in the GAC 2023 organization?
+   - Tell me about the committee members of GAC 2023.
+   - Provide an introduction to the organizing team of GAC 2023.
+
+- intent: gac_2023_registration
+  examples: |
+   - What are the registration details for GAC 2023?
+   - What is the registration fee for felicitation batch for GAC 2023?
+   - What is the registration fee for others for GAC 2023?
+   - What is the link for registering for GAC 2023
+   - What is the last date to register for GAC 2023?
+   - Can alumni register for GAC 2023?
+   - is there any extra charges for registering after the last date?
+   - How much is the registration fee for GAC 2023?
+   - Can you provide the cost of attending GAC 2023, including registration fees?
+   - What are the fees associated with GAC 2023 registration?
+   - Tell me about the pricing structure for GAC 2023 registration.
+   - I'd like to know the registration fee for students attending GAC 2023.
+   - How can I register for GAC 2023?
+   - What is the process for GAC 2023 registration?
+   - Can you guide me through the GAC 2023 registration?
+   - I'd like to sign up for GAC 2023. What are the steps?
+   - Tell me about the registration options for GAC 2023.
+   - What is the cost of registration for GAC 2023?
+- intents: gac_2023_payment
+  examples: |
+   - What are the payment details for registering for GAC 2023?
+   - What are the different ways for paying for GAC 2023?
+   - What are the different ways to donate for GAC 2023?
+   - How to pay for GAC 2023?
+   - Give me the bank details for GAC 2023?
+   - Provide me the bank details for paying for GAC 2023?
+   - How can I make a payment for GAC 2023?
+   - Tell me about the payment options for GAC 2023.
+   - What are the accepted payment methods for GAC 2023 registration?
+   - Provide information on the payment process for GAC 2023.
+   - I'd like to know how to pay for GAC 2023. Can you guide me?
+   - Explain the payment details for GAC 2023.
+   - Give me an overview of the payment procedures for GAC 2023.
+   - What is the cost of registration for GAC 2023?
+   - How much do I need to pay for GAC 2023 attendance?
+   - Share information about payment deadlines for GAC 2023.
+   - Can you provide a breakdown of registration fees for GAC 2023?
+   - Tell me about any discounts or promo codes for GAC 2023 registration.
+   - What is the refund policy for GAC 2023 payments?
+   - Explain the steps to complete the payment for GAC 2023.
+   - How do I pay for additional services or workshops at GAC 2023?
+   - What is the currency for payments related to GAC 2023?
+   - I'd like to know if installment payments are available for GAC 2023.
+   - Tell me about the payment portal or platform for GAC 2023.
+   - Are there group discounts for registering multiple attendees for GAC 2023?
+   - Can you provide information on scholarship opportunities or financial aid for GAC 2023?
+   - What is the registration fee for students attending GAC 2023?
+   - How can I obtain an invoice for my GAC 2023 registration?
+   - Explain the process for confirming my payment for GAC 2023.
+   - Tell me about any additional costs associated with GAC 2023 attendance.
+   - Are there any special rates for GAC 2023 speakers or presenters?
+   - I'd like to learn more about payment confirmation and receipts for GAC 2023.
+   - What is the policy for late or on-site registration payments for GAC 2023?
+   - Can you provide details on the payment support contact for GAC 2023?
+   - Explain the process for canceling or modifying my payment for GAC 2023.
+- intent: gac_2023_sponsorship
+  examples: |
+   - What is the different sponsorship amounts provided?
+   - Is there any detail of sponsorship amount?
+   - Give me the detail of sponsorship amount?
+   - What is the minimum sponsorship amout available?
+   - Can we donate amount less than sponsorship amount?
+   - What are the details of the amount less than sponsorship amount?
+   - How can I become a sponsor for GAC 2023?
+   - Tell me about the sponsorship opportunities available for GAC 2023.
+   - What are the different sponsorship packages for GAC 2023?
+   - Provide information on sponsorship levels and benefits for GAC 2023.
+   - I'm interested in sponsoring GAC 2023. Can you guide me through the process?
+   - Explain the sponsorship details and requirements for GAC 2023.
+   - Give me an overview of the sponsorship packages and their costs for GAC 2023.
+   - What promotional opportunities are available for sponsors at GAC 2023?
+   - How can I inquire about custom sponsorship options for GAC 2023?
+   - Share information on the sponsorship application deadline for GAC 2023.
+   - Can you provide a list of previous sponsors for GAC events?
+   - Tell me about the visibility and branding options for sponsors at GAC 2023.
+   - What is the process for submitting a sponsorship proposal for GAC 2023?
+   - Explain the benefits and perks of being a sponsor at GAC 2023.
+   - Are there specific industries or sectors that GAC is looking for sponsors from?
+   - I'd like to know if there are exclusive sponsorship opportunities for certain events at GAC 2023.
+   - What are the sponsorship payment and invoicing procedures for GAC 2023?
+   - Can you provide information on sponsorship contacts or representatives for GAC 2023?
+   - What is the timeline for sponsorship confirmation for GAC 2023?
+   - Are there any partnership or co-sponsorship opportunities for GAC 2023?
+   - Tell me about any special perks or recognition for long-term sponsors of GAC.
+   - What is the process for signing a sponsorship agreement for GAC 2023?
+   - How can I request a sponsorship prospectus for GAC 2023?
+   - Explain the policy for sponsorship exclusivity in specific categories at GAC 2023.
+   - Tell me about the opportunities for sponsors to host workshops or sessions at GAC 2023.
+   - Can you provide examples of successful sponsorships from past GAC conferences?
+   - I'd like to learn more about sponsorship marketing and promotion at GAC 2023.
+   - What is the procedure for sponsor acknowledgment and recognition at GAC 2023?
+   - Provide details on the sponsorship support and assistance available for sponsors at GAC 2023.
+   - Explain the process for canceling or modifying a sponsorship commitment for GAC 2023.
+- intent: gac_2023_corr_mem_committee
+  examples: |
+   - who are the members of GAC 2023?
+   - Who are the correspondence for GAC 2023?
+   - List the names of members of GAC 2023?
+   - List the namesof correspondence for GAC 2023?
+   - What are different  committee parts of GAC 2023?
+   - List all the committee parts of GAC 2023?
+   - List the names of all the committee of GAC 2023?
+   - Provide all the details of committee of GAC 2023?
+   - Who are the key members of the organizing team for GAC 2023?
+   - Provide information on how to contact the GAC 2023 committee.
+   - Can you share details about the program committee members for GAC 2023?
+   - I'd like to know who is responsible for the   GAC 2023. Can you help?
+   - Tell me about the communication channels for GAC 2023 correspondence.
+   - Give me an overview of the advisory board members for GAC 2023.
+   - Share information about the committee for GAC 2023.
+   - How can I contact the committee for GAC 2023?
+   - Tell me about the members for GAC 2023.
+   - Provide details on the members and correspondence for GAC 2023 updates.
+   - Who is the primary members ,committee for GAC 2023?
+   - I'd like to reach out to the  team for GAC 2023. Can you provide their contact information?
+   - Share the contact details for the technical program chair of GAC 2023.
+   - Tell me about the GAC 2023 committee and how to contact them.
+   - Provide information on the media and press committee for GAC 2023.
+   - Provide information on the advisory committee for GAC 2023.
+   - Provide information on the event management committee for GAC 2023.
+   - Provide information on the hospitality committee for GAC 2023.
+   - Provide information on the medical committee for GAC 2023.
+   - Provide information on the publication and souvenir committee for GAC 2023.
+   - Provide information on the hostel visit committee for GAC 2023.
+   - Provide information on the purchase committee for GAC 2023.
+   - Provide information on the registration committee for GAC 2023.
+   - Provide information on the resource generation committee for GAC 2023.
+   - Who are the key members of the organizing team for GAC 2023?
+   - Can you share details about the program committee members for GAC 2023?
+   - I'd like to know who is responsible members  for GAC 2023. Can you help?
+   - Tell me about the communication channels for GAC 2023 correspondence.
+   - Give me an overview of the advisory board members for GAC 2023.
+
+- intent: maa
+  examples: |
+   - Give me the details of MNNIT alumni association?
+   - What are the contact details for MNNIT alumni association?
+   - How to contact MNNIT alumni association?
+   - Is there any way to reach MNNIT alumni association?
+   - How can I get in touch with the MNNIT alumni association?
+   - Tell me the contact information for the MNNIT alumni association.
+   - What is the email address for the MNNIT alumni association?
+   - Provide details on how to reach out to the MNNIT alumni network.
+   - I'd like to contact the MNNIT alumni association. Can you assist me?
+   - Share the phone number for the MNNIT alumni association.
+   - Give me an overview of the MNNIT alumni association's contact details.
+   - What are the social media profiles for the MNNIT alumni association?
+   - How can I inquire about membership with the MNNIT alumni network?
+   - Can you provide the mailing address for the MNNIT alumni association?
+   - Tell me about the official website of the MNNIT alumni network.
+   - What is the process for joining the MNNIT alumni association?
+   - Explain the benefits of becoming a member of the MNNIT alumni network.
+   - I'd like to know if there are local chapters of the MNNIT alumni association.
+   - Share information on the alumni association's LinkedIn page.
+   - How can I access the MNNIT alumni association's newsletter or updates?
+   - What is the alumni association's support email for inquiries?
+   - Tell me about any alumni networking platforms used by the MNNIT alumni association.
+   - Can you provide information on the annual alumni meet organized by MNNIT?
+   - How can I contact the MNNIT alumni association's administrative office?
+   - I'd like to learn about the alumni association's alumni mentoring program.
+   - Share details on alumni success stories featured by MNNIT alumni association.
+   - What is the process for donating to the MNNIT alumni association?
+   - Tell me about the process for updating my contact information with MNNIT alumni.
+   - Provide information on alumni scholarships offered by the association.
+   - How can I reach out to the local alumni chapter in my city?
+   - Tell me about the history and mission of the MNNIT alumni association.
+   - What is the alumni association's social media hashtag for updates?
+   - Explain the process for alumni volunteering opportunities with MNNIT.
+
+
+    
+
+
 - intent: ask_registration_2023
   examples: |
     - How can I register for the event?
