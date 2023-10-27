@@ -626,6 +626,38 @@ nlu:
    - I'd like to sign up for GAC 2023. What are the steps?
    - Tell me about the registration options for GAC 2023.
    - What is the cost of registration for GAC 2023?
+   - How can I register for the event?
+   - What is the registration fee?
+   - Can you guide me through the registration process?
+   - Where do I sign up for the event?
+   - Tell me about the registration procedure.
+   - Is there a fee to attend the event?
+   - How do I get registered for 2023?
+   - What are the steps to complete the registration?
+   - When does the registration for 2023 start?
+   - Are there any discounts for early registration?
+   - What is the deadline for event registration?
+   - How can I pay for the registration fee?
+   - Do I need to create an account to register?
+   - Can I register multiple attendees at once?
+   - What payment methods are accepted for registration?
+   - Is there a student discount available for registration?
+   - How do I confirm my registration status?
+   - What information is required for the registration form?
+   - Is there a group registration option?
+   - Can I register on the day of the event?
+   - Are there any prerequisites for registration?
+   - Can I cancel or modify my registration?
+   - Tell me about the registration schedule.
+   - What is the registration process like?
+   - Are there any documents needed for registration?
+   - How can I get a copy of my registration receipt?
+   - Can you provide details on early bird registration?
+   - What is included in the registration package?
+   - Tell me about the registration support contact.
+   - Where can I find the online registration portal?
+   - How do I register as a speaker for the event?
+
 - intents: gac_2023_payment
   examples: |
    - What are the payment details for registering for GAC 2023?
@@ -781,39 +813,39 @@ nlu:
     
 
 
-- intent: ask_registration_2023
-  examples: |
-    - How can I register for the event?
-    - What is the registration fee?
-    - Can you guide me through the registration process?
-    - Where do I sign up for the event?
-    - Tell me about the registration procedure.
-    - Is there a fee to attend the event?
-    - How do I get registered for 2023?
-    - What are the steps to complete the registration?
-    - When does the registration for 2023 start?
-    - Are there any discounts for early registration?
-    - What is the deadline for event registration?
-    - How can I pay for the registration fee?
-    - Do I need to create an account to register?
-    - Can I register multiple attendees at once?
-    - What payment methods are accepted for registration?
-    - Is there a student discount available for registration?
-    - How do I confirm my registration status?
-    - What information is required for the registration form?
-    - Is there a group registration option?
-    - Can I register on the day of the event?
-    - Are there any prerequisites for registration?
-    - Can I cancel or modify my registration?
-    - Tell me about the registration schedule.
-    - What is the registration process like?
-    - Are there any documents needed for registration?
-    - How can I get a copy of my registration receipt?
-    - Can you provide details on early bird registration?
-    - What is included in the registration package?
-    - Tell me about the registration support contact.
-    - Where can I find the online registration portal?
-    - How do I register as a speaker for the event?
+# - intent: ask_registration_2023
+#   examples: |
+#     - How can I register for the event?
+#     - What is the registration fee?
+#     - Can you guide me through the registration process?
+#     - Where do I sign up for the event?
+#     - Tell me about the registration procedure.
+#     - Is there a fee to attend the event?
+#     - How do I get registered for 2023?
+#     - What are the steps to complete the registration?
+#     - When does the registration for 2023 start?
+#     - Are there any discounts for early registration?
+#     - What is the deadline for event registration?
+#     - How can I pay for the registration fee?
+#     - Do I need to create an account to register?
+#     - Can I register multiple attendees at once?
+#     - What payment methods are accepted for registration?
+#     - Is there a student discount available for registration?
+#     - How do I confirm my registration status?
+#     - What information is required for the registration form?
+#     - Is there a group registration option?
+#     - Can I register on the day of the event?
+#     - Are there any prerequisites for registration?
+#     - Can I cancel or modify my registration?
+#     - Tell me about the registration schedule.
+#     - What is the registration process like?
+#     - Are there any documents needed for registration?
+#     - How can I get a copy of my registration receipt?
+#     - Can you provide details on early bird registration?
+#     - What is included in the registration package?
+#     - Tell me about the registration support contact.
+#     - Where can I find the online registration portal?
+#     - How do I register as a speaker for the event?
 
 - intent: ask_networking_2023
   examples: |
