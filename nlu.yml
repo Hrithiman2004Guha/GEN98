@@ -90,67 +90,192 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
-- intent: ask_event_info
+- intent: previous_GAC_2018
   examples: |
-    - What is the [date and location]{"entity":"general_info", "value":"DL"} of the event?
-    - Can you tell me about the [schedule]{"entity":"general_info", "value":"S"} for the convention?
-    - Where will the convention take [place]{"entity":"general_info", "value":"L"}?
-    - What is the [Global Alumni Convention]{"entity":"general_info","value":"DESC"} event?
-    - Tell me about the [GAC]{"entity":"general_info", "value":"DESC"} event.
+    - What was the [schedule of GAC 2018]{"entity":"gac2018", "value":"S"}?
+    - Can you provide the [schedule for GAC 2018]{"entity":"gac2018", "value":"S"}?
+    - What was the [schedule of Global Alumni Convention 2018]{"entity":"gac2018", "value":"S"}?
+    - Provide the [program of Alumni Convention 2018]{"entity":"gac2018", "value":"S"}.
+    - Please share the [timetable for GAC 2018]{"entity":"gac2018", "value":"S"}.
+    - When and where was the [agenda for GAC 2018]{"entity":"gac2018", "value":"S"}?
+    - Tell me about the [itinerary for GAC 2018]{"entity":"gac2018", "value":"S"}.
+    - Provide details about the [daily schedule for GAC 2018]{"entity":"gac2018", "value":"S"}.
+    - What was the [schedule of GAC 2018]{"entity":"gac2018", "value":"S"}?
+    - Can you provide the [schedule for GAC 2018]{"entity":"gac2018", "value":"S"}?
+    - Please share the timetable [for GAC 2018]{"entity":"gac2018", "value":"S"}.
+    - When and where was the schedule [for GAC 2018]{"entity":"gac2018", "value":"S"}?
+    - Tell me about the GAC 2018 [agenda]{"entity":"gac2018", "value":"S"}.
+    - Provide details about the GAC 2018 [program]{"entity":"gac2018", "value":"S"}.
+    - What was on the [agenda]{"entity":"gac2018", "value":"S"} for GAC 2018?
+    - Give me information on the [GAC 2018 schedule]{"entity":"gac2018", "value":"S"}.
+    - I want to know the [GAC 2018 program]{"entity":"gac2018", "value":"S"}.
+    - Share the [itinerary of GAC 2018]{"entity":"gac2018", "value":"S"}.
+    - What [events]{"entity":"gac2018", "value":"S"} were scheduled for GAC 2018?
+    - What was [planned for GAC 2018]{"entity":"gac2018", "value":"S"}?
+    - Could you give me the GAC 2018 [timetable]{"entity":"gac2018", "value":"S"}?
+    - What can you tell me about the GAC 2018 [program]{"entity":"gac2018", "value":"S"}?
+    - When did GAC 2018 [events]{"entity":"gac2018", "value":"S"} take place?
+    - Provide information on the GAC 2018 [agenda]{"entity":"gac2018", "value":"S"}.
+    - Tell me the GAC 2018 [schedule]{"entity":"gac2018", "value":"S"}.
+    - When did GAC 2018 occur? {"entity":"gac2018", "value":"D"}
+    - What were the [dates]{"entity":"gac2018", "value":"D"} of GAC 2018?
+    - Tell me the [date]{"entity":"gac2018", "value":"D"} for GAC 2018.
+    - When did GAC 2018 occur? {"entity":"gac2018", "value":"D"}
+    - What were the [dates]{"entity":"gac2018", "value":"D"} of GAC 2018?
+    - Tell me the [date]{"entity":"gac2018", "value":"D"} for GAC 2018.
+    - On what [date]{"entity":"gac2018", "value":"D"} did GAC 2018 take place?
+    - Provide the [date]{"entity":"gac2018", "value":"D"} for GAC 2018.
+    - Could you share the [dates]{"entity":"gac2018", "value":"D"} for GAC 2018?
+    - When was [GAC 2018]{"entity":"gac2018", "value":"D"}?
+    - What was the [day]{"entity":"gac2018", "value":"D"} of GAC 2018?
+    - Provide information on the [GAC 2018]{"entity":"gac2018", "value":"D"} dates.
+    - When and on what [dates]{"entity":"gac2018", "value":"D"} did GAC 2018 happen?
+    - What was the [date range]{"entity":"gac2018", "value":"D"} for GAC 2018?
+    - Can you share the [GAC 2018]{"entity":"gac2018", "value":"D"} dates with me?
+    - What [day]{"entity":"gac2018", "value":"D"} was GAC 2018 held on?
+    - What were the [GAC 2018]{"entity":"gac2018", "value":"D"} dates?
+    - Tell me the [date]{"entity":"gac2018", "value":"D"} range for GAC 2018.
+    - Share the [event]{"entity":"gac2018", "value":"D"} dates for GAC 2018.
+    - When did GAC 2018 [commence]{"entity":"gac2018","value":"D"}?
+    - What [day]{"entity":"gac2018", "value":"D"} did GAC 2018 start?
+    - When was the [start date]{"entity":"gac2018", "value":"D"} of GAC 2018?
+    - What were the [GAC 2018]{"entity":"gac2018", "value":"D"} start and end dates?
+    - Can you tell me the [GAC 2018]{"entity":"gac2018", "value":"D"} date?
+    - List the events of GAC 2018. {"entity":"gac2018", "value":"EV"}
+    - Can you provide the [event list]{"entity":"gac2018", "value":"EV"} for GAC 2018?
+    - What events were part of [GAC 2018]{"entity":"gac2018", "value":"EV"}?
+    - Give me the [list]{"entity":"gac2018", "value":"EV"} of GAC 2018 events.
+    - Provide the [event]{"entity":"gac2018", "value":"EV"} lineup for GAC 2018.
+    - Share the [GAC 2018]{"entity":"gac2018", "value":"EV"} event schedule.
+    - I want to know the [events]{"entity":"gac2018", "value":"EV"} that took place during GAC 2018.
+    - Can you list the [GAC 2018]{"entity":"gac2018", "value":"EV"} events?
+    - What [events]{"entity":"gac2018", "value":"EV"} were held at GAC 2018?
+    - Provide information about the [GAC 2018]{"entity":"gac2018", "value":"EV"} event roster.
+    - Tell me the [event names]{"entity":"gac2018", "value":"EV"} for GAC 2018.
+    - I'm interested in the [event lineup]{"entity":"gac2018", "value":"EV"} of GAC 2018.
+    - Give me the [GAC 2018]{"entity":"gac2018", "value":"EV"} events.
+    - What were the [GAC 2018]{"entity":"gac2018", "value":"EV"} happenings?
+    - Share the [events]{"entity":"gac2018", "value":"EV"} held at GAC 2018.
+    - Where did GAC 2018 take [place]{"entity": "gac2018", "value": "L"}?
+    - What was the [venue]{"entity": "gac2018", "value": "L"} for GAC 2018?
+    - Can you tell me the [location]{"entity": "gac2018", "value": "L"} of GAC 2018?
+    - Give me the [address]{"entity": "gac2018", "value": "L"} for GAC 2018.
+    - Where was [GAC 2018]{"entity": "gac2018", "value": "L"} held?
+    - Provide the [place]{"entity": "gac2018", "value": "L"} of GAC 2018.
+    - I'd like to know the [site]{"entity": "gac2018", "value": "L"} of GAC 2018.
+    - Can you share the [venue details]{"entity": "gac2018", "value": "L"} for GAC 2018?
+    - Tell me the [specific location]{"entity": "gac2018", "value": "L"} of GAC 2018.
+    - Where exactly did [GAC 2018]{"entity": "gac2018", "value": "L"} happen?
+    - Provide information about the [GAC 2018]{"entity": "gac2018", "value": "L"} venue.
+    - Can you specify the [place]{"entity": "gac2018", "value": "L"} for GAC 2018?
+    - Tell me the [address]{"entity": "gac2018", "value": "L"} of GAC 2018.
+    - Where was the [GAC 2018]{"entity": "gac2018", "value": "L"} event located?
+    - Share the [precise location]{"entity": "gac2018", "value": "L"} of GAC 2018.
+    - Can you give me information about GAC 2018? {"entity":"gac2018", "value":"DESC"}
+    - What is the [description]{"entity":"gac2018", "value":"DESC"} of GAC 2018?
+    - Please provide details about [GAC 2018]{"entity":"gac2018", "value":"DESC"}.
+    - Tell me more about [GAC 2018]{"entity":"gac2018", "value":"DESC"}.
+    - I'd like to learn about the [GAC 2018]{"entity":"gac2018", "value":"DESC"}.
+    - Share information on [GAC 2018]{"entity":"gac2018", "value":"DESC"}.
+    - Give me the [overview]{"entity":"gac2018", "value":"DESC"} of GAC 2018.
+    - Can you describe [GAC 2018]{"entity":"gac2018", "value":"DESC"} to me?
+    - What can you tell me about [GAC 2018]{"entity":"gac2018", "value":"DESC"}?
+    - Provide a brief [summary]{"entity":"gac2018", "value":"DESC"} of GAC 2018.
+    - Share details of [GAC 2018]{"entity":"gac2018", "value":"DESC"}.
+    - Can you offer insights into [GAC 2018]{"entity":"gac2018", "value":"DESC"}?
+    - Tell me more about the [event]{"entity":"gac2018", "value":"DESC"} known as GAC 2018.
+    - I want to know what [GAC 2018]{"entity":"gac2018", "value":"DESC"} is all about.
+    - Describe [GAC 2018]{"entity":"gac2018", "value":"DESC"} in detail.
+    - Please provide an [introduction]{"entity":"gac2018", "value":"DESC"} to GAC 2018.
+    - What is the [background]{"entity":"gac2018", "value":"DESC"} of GAC 2018?
+    - Give me an [account]{"entity":"gac2018", "value":"DESC"} of GAC 2018.
+    - Share the [particulars]{"entity":"gac2018", "value":"DESC"} of GAC 2018.
+    - Can you provide [insights]{"entity":"gac2018", "value":"DESC"} into GAC 2018?
+    - I'd like to read about the [context]{"entity":"gac2018", "value":"DESC"} of GAC 2018.
+    - What is the [official description]{"entity":"gac2018", "value":"DESC"} of GAC 2018?
+    - Please offer the [specifics]{"entity":"gac2018", "value":"DESC"} of GAC 2018.
+    - Tell me about the [event details]{"entity":"gac2018", "value":"DESC"} for GAC 2018.
+    - Share the [highlights]{"entity":"gac2018", "value":"DESC"} of GAC 2018.
+    - What [information]{"entity":"gac2018", "value":"DESC"} is available about GAC 2018?
+    - Who organized GAC 2018? {"entity":"gac2018", "value":"OC"}
+    - Tell me about the [organising committee]{"entity":"gac2018", "value":"OC"} of GAC 2018.
+    - Provide details about the [committee]{"entity":"gac2018", "value":"OC"} behind GAC 2018.
+    - Can you tell me who was responsible for organizing [GAC 2018]{"entity":"gac2018", "value":"OC"}?
+    - I'd like to know about the [team]{"entity":"gac2018", "value":"OC"} that managed GAC 2018.
+    - Who were the individuals in the [organizing committee]{"entity":"gac2018", "value":"OC"} of GAC 2018?
+    - Share information about the [committee members]{"entity":"gac2018", "value":"OC"} for GAC 2018.
+    - Tell me about the [persons]{"entity":"gac2018", "value":"OC"} involved in organizing GAC 2018.
+    - Provide names of the [committee members]{"entity":"gac2018", "value":"OC"} responsible for GAC 2018.
+    - Can you provide insights into the [organizational team]{"entity":"gac2018", "value":"OC"} of GAC 2018?
+    - Who were the [sponsors]{"entity":"gac2018", "value":"SP"} for GAC 2018?
+    - Can you tell me about the [sponsors]{"entity":"gac2018", "value":"SP"} of GAC 2018?
+    - Provide information about the [sponsors]{"entity":"gac2018", "value":"SP"} for GAC 2018.
+    - List the [sponsors]{"entity":"gac2018", "value":"SP"} of GAC 2018.
+    - Could you share details on the [sponsoring organizations]{"entity":"gac2018", "value":"SP"} for GAC 2018?
+    - Tell me about the [financial supporters]{"entity":"gac2018", "value":"SP"} of GAC 2018.
+    - Who supported GAC 2018 as [sponsors]{"entity":"gac2018", "value":"SP"}?
+    - Provide names of the [contributing companies]{"entity":"gac2018", "value":"SP"} for GAC 2018.
+    - Share insights into the [partners]{"entity":"gac2018", "value":"SP"} of GAC 2018.
+    - Can you give me information about the [sponsoring entities]{"entity":"gac2018", "value":"SP"} for GAC 2018?
+    - Tell me the names of the [financial backers]{"entity":"gac2018", "value":"SP"} for GAC 2018.
+    - Share details of the [sponsoring parties]{"entity":"gac2018", "value":"SP"} for GAC 2018.
+    - Who were the [corporate sponsors]{"entity":"gac2018", "value":"SP"} for GAC 2018?
+    - Provide the list of [financial contributors]{"entity":"gac2018", "value":"SP"} for GAC 2018.
+    - Can you tell me about the [sponsorship organizations]{"entity":"gac2018", "value":"SP"} for GAC 2018?
+
+
+    
+    
+- intent: ask_event_info_2023
+  examples: |
+    - [What's the date and location]{"entity":"general_info", "value":"DL"} of the event?
     - [When and where]{"entity":"general_info", "value":"DL"} is the event happening?
-    - Describe the event's [date and location]{"entity":"general_info","value":"DL"}.
-    - Share details about the event [schedule]{"entity":"general_info","value":"S"}.
-    - Give me information on the event's [location]{"entity":"general_info","value":"L"}.
-    - Provide a brief [overview]{"entity":"general_info","value":"DESC"} of the Global Alumni Convention.
-    - [Explain the GAC event]{"entity":"general_info","value":"DESC"} to me.
-    - When and where can I attend the event?
-    - Tell me the date and location for the convention.
-    - What's the schedule for the event?
-    - Provide details about the event's location.
-    - Can you give me a summary of the Global Alumni Convention?
-    - Describe the GAC event.
-    - What are the specifics of the event's date and location?
-    - Share the convention's schedule with me.
-    - Where is the event taking place?
-    - Please describe the Global Alumni Convention.
-    - How can I learn more about the GAC event?
-    - What is the event's date and location?
-    - What's on the schedule for the convention?
-    - Tell me where the convention will be held.
-    - Give me an overview of the Global Alumni Convention.
-    - Briefly describe the GAC event.
-    - Provide information about the date and location.
-    - What is the event's date and location?
-    - Can you provide details on the convention's schedule?
-    - Where is the event's venue?
-    - Share information about the Global Alumni Convention.
-    - Tell me about the GAC event.
-    - When and where should I be for the event?
-    - What's the date and location of the convention?
-    - What's on the schedule for the event?
-    - Can you specify the location of the convention?
-    - Describe the Global Alumni Convention for me.
-    - Tell me more about the GAC event.
-    - When is the event, and where will it be?
-    - Provide the date and location details.
-    - What can you tell me about the convention's schedule?
-    - Where can I find the event?
-    - Share some insights about the Global Alumni Convention.
-    - Explain the GAC event to me in detail.
-    - What's the date and location information for the event?
-    - Can you outline the schedule for the convention?
-    - Where should I go for the event?
-    - Tell me all about the Global Alumni Convention.
-    - Provide a comprehensive overview of the GAC event.
+    - [Describe the event's date and location]{"entity":"general_info", "value":"DL"}.
+    - Give me the [date and location]{"entity":"general_info", "value":"DL"} of the event.
+    - Share the event [schedule]{"entity":"general_info", "value":"S"} with me.
+    - Provide an [overview]{"entity":"general_info", "value":"DESC"} of the event.
+    - [Explain the GAC event]{"entity":"general_info", "value":"DESC"} to me in detail.
+    - Can you tell me the [schedule]{"entity":"general_info", "value":"S"} for the convention?
+    - Where will the convention take [place]{"entity":"general_info", "value":"L"}?
+    - What is the [Global Alumni Convention]{"entity":"general_info", "value":"DESC"} event?
+    - Tell me about the [GAC]{"entity":"general_info", "value":"DESC"} event.
+    - [When and where]{"entity":"general_info","value":"DL"} can I attend the event?
+    - Tell me the [date and location]{"entity":"general_info","value":"DL"} for the convention.
+    - What's the [schedule]{"entity":"general_info", "value":"S"} for the event?
+    - Provide details about the event [location]{"entity":"general_info", "value":"L"}.
+    - Can you give me a [summary]{"entity":"general_info", "value":"DESC"} of the Global Alumni Convention?
+    - [When and where]{"entity":"general_info", "value":"DL"} is the event scheduled for?
+    - Briefly describe the [GAC]{"entity":"general_info", "value":"DESC"} event.
+    - Share information about the [date and location]{"entity":"general_info", "value":"DL"}.
+    - What is the event's [date and location]{"entity":"general_info", "value":"DL"}?
+    - Can you provide details on the convention's [schedule]{"entity":"general_info", "value":"S"}?
+    - Where is the event's [venue]{"entity":"general_info", "value":"L"}?
+    - Share [information about the Global Alumni Convention]{"entity":"general_info","value":"DESC"}.
+    - Tell me about the [GAC]{"entity":"general_info", "value":"DESC"} event.
+    - What's the [date and location]{"entity":"general_info", "value":"DL"} of the convention?
+    - What's on the [schedule]{"entity":"general_info", "value":"S"} for the event?
+    - [Describe]{"entity":"general_info", "value":"DESC"} the Global Alumni Convention for me.
+    - Tell me more about the [GAC]{"entity":"general_info", "value":"DESC"} event.
+    - [When is the event, and where will it be?]{"entity":"general_info","value":"DL"}
+    - Provide the [date and location]{"entity":"general_info", "value":"DL"} details.
+    - What can you tell me about the convention's [schedule]{"entity":"general_info", "value":"S"}?
+    - [Where]{"entity":"general_info","value":"L"} can I find the event?
+    - Share some [insights]{"entity":"general_info","value":"DESC"} about the Global Alumni Convention.
+    - Explain the [GAC]{"entity":"general_info", "value":"DESC"} event to me in detail.
+    - What's the [date and location]{"entity":"general_info", "value":"DL"} information for the event?
+    - Can you outline the [schedule]{"entity":"general_info", "value":"S"} for the convention?
+    - [Where]{"entity":"general_info","value":"L"} should I go for the event?
+    - Tell me [all about the Global Alumni Convention]{"entity":"general_info","value":"DESC"}.
+    - Provide a comprehensive [overview]{"entity":"general_info", "value":"DESC"} of the GAC event.
 
 
-- intent: ask_registration
+- intent: ask_registration_2023
   examples: |
     - How can I register for the event?
     - What is the registration fee?
     - Can you guide me through the registration process?
 
-- intent: ask_networking
+- intent: ask_networking_2023
   examples: |
     - Are there networking sessions or meetups?
     - Can I connect with fellow alumni at the event?
