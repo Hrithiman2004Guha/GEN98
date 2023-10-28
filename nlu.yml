@@ -1082,3 +1082,398 @@ nlu:
     - What's the best way to share my feedback on the event?
     - Can I give my recommendations for enhancing the convention?
     - How can I give my feedback about the event's organization?
+
+
+
+- intent: mnnit_location
+  examples: |
+    - Where is MNNIT located?
+    - Can you tell me the address of MNNIT?
+    - What is the location of Motilal Nehru National Institute of Technology?
+    - Where can I find MNNIT?
+    - Please provide the campus address for MNNIT.
+    - What's the physical address of MNNIT?
+    - Tell me the geographical location of MNNIT.
+    - Where exactly is Motilal Nehru National Institute of Technology situated?
+    - I'm looking for information about MNNIT's location.
+    - Can you give me directions to MNNIT?
+    - What's the street address for MNNIT?
+    - Where is the MNNIT campus situated?
+    - Tell me about MNNIT's whereabouts.
+    - How do I get to MNNIT?
+    - Can you guide me to the MNNIT campus?
+    - What's the physical location of MNNIT?
+    - Where in India is MNNIT located?
+    - What's the full address of MNNIT?
+    - I need to know MNNIT's geographic coordinates.
+    - Tell me the precise location of MNNIT in Allahabad.
+    - Where can I visit MNNIT?
+    - What is the street name for MNNIT?
+    - Give me directions to MNNIT in Allahabad.
+    - What's the official address for MNNIT?
+    - Where can I physically go to MNNIT?
+    - Can you provide me with the location of MNNIT in Uttar Pradesh?
+    - I'm searching for the campus location of MNNIT.
+    - Tell me the specific address of MNNIT in Allahabad.
+    - How can I reach MNNIT in Allahabad?
+    - Please share the geographical details of MNNIT's campus.
+    - Where is the institute Motilal Nehru National Institute of Technology?
+    - I want to know the physical site of MNNIT in Allahabad.
+
+- intent: mnnit_full_form
+  examples: |
+    - What does MNNIT stand for?
+    - Can you tell me the full form of MNNIT?
+    - What is the meaning of MNNIT?
+    - Please explain the acronym MNNIT.
+    - What does the abbreviation MNNIT represent?
+    - I want to know the full name of MNNIT.
+    - What is the expanded form of MNNIT?
+    - Can you provide the complete name of MNNIT?
+    - Tell me the full form of MNNIT.
+    - What does MNNIT's initials mean?
+    - Give me the full name of MNNIT.
+    - Explain the full form of MNNIT.
+    - Tell me the complete expansion of MNNIT.
+    - What is the full name of MNNIT?
+    - I'm curious about the meaning of MNNIT.
+    - Share the extended form of MNNIT.
+    - Can you provide the full title of MNNIT?
+    - What does the acronym MNNIT denote?
+    - Please elaborate on MNNIT's full form.
+    - I'd like to know the complete name of MNNIT.
+    - What's the full name of MNNIT?
+    - Share the expanded form of MNNIT's initials.
+    - Can you explain MNNIT's abbreviation in full?
+    - I'm looking for the expanded form of MNNIT.
+    - What is the full name of the institute with the acronym MNNIT?
+
+- intent: girls_hostel_count
+  examples: |
+    - How many girls' hostels are there at MNNIT?
+    - Can you tell me the count of girls' hostels in MNNIT?
+    - How many accommodations are available for female students in MNNIT?
+    - Please provide information about the girls' hostels at MNNIT.
+    - Tell me the number of girls' hostels on the campus.
+    - What's the quantity of girls' hostels in MNNIT?
+    - I'd like to know the total count of girls' hostels at MNNIT.
+    - Are there multiple hostels for female students in MNNIT?
+    - How many dormitories are there for girls in MNNIT?
+    - Give me details about the girls' hostels in MNNIT.
+    - Can you provide me with the number of accommodations for female students in MNNIT?
+    - What's the girls' hostel count at MNNIT?
+    - I'm interested in knowing the total girls' hostels in MNNIT.
+    - Share information about the housing options for female students at MNNIT.
+    - How many places for girls to stay are there in MNNIT?
+    - What is the total count of girls' hostels in MNNIT?
+    - Can you provide the girls' hostel quantity at MNNIT?
+    - What is the number of housing facilities for female students in MNNIT?
+    - Please share details about the girls' hostels at MNNIT.
+    - Tell me the total girls' hostel count in MNNIT.
+    - How many accommodations for female students can be found in MNNIT?
+
+- intent: girls_hostel_names
+  examples: |
+    - What are the names of the girls' hostels at MNNIT?
+    - Can you provide me with the names of the girls' hostels in MNNIT?
+    - Tell me the names of the accommodations for female students in MNNIT.
+    - Please share the names of the girls' hostels at MNNIT.
+    - What are the specific names of the girls' hostels on the campus?
+    - Can you list the names of girls' hostels in MNNIT?
+    - I'd like to know the names of the girls' hostels at MNNIT.
+    - Are there multiple hostels for female students, and can you share their names in MNNIT?
+    - Tell me the names of the dormitories for girls in MNNIT.
+    - Give me the names of the girls' hostels in MNNIT.
+    - Can you provide me with the specific names of accommodations for female students in MNNIT?
+    - What are the names of the girls' hostels in MNNIT?
+    - I'm interested in knowing the names of the girls' hostels at MNNIT.
+    - Share information about the housing options for female students, including their names at MNNIT.
+    - What are the names of the places for girls to stay in MNNIT?
+    - Tell me the specific names of the girls' hostels in MNNIT.
+    - Can you list the names of accommodations for female students at MNNIT?
+    - What are the names of the girls' hostels in MNNIT?
+    - I'd like to know the names of the girls' hostels at MNNIT.
+    - Share information about the housing options for female students, including their names at MNNIT.
+    - What are the names of the places for girls to stay in MNNIT?
+
+- intent: mnnit_clubs
+  examples: |
+    - Tell me about the clubs at MNNIT.
+    - Can you list the clubs available at MNNIT?
+    - What are the clubs in MNNIT?
+    - Please provide information about the clubs at MNNIT.
+    - List the student clubs in MNNIT.
+    - I'd like to know about the extracurricular clubs at MNNIT.
+    - Are there any clubs or societies at MNNIT?
+    - Tell me about the student organizations and clubs in MNNIT.
+    - Can you share information on the clubs and societies in MNNIT?
+    - What are the various clubs that students can join at MNNIT?
+    - I'm interested in learning about the clubs at MNNIT.
+    - Give me details about the student clubs and organizations in MNNIT.
+    - Can you tell me which clubs exist at MNNIT?
+    - What extracurricular clubs are available for students at MNNIT?
+    - Share information about the student clubs and societies in MNNIT.
+    - List the names of clubs in MNNIT.
+    - Tell me about the student organizations and clubs available for students at MNNIT.
+    - Can you provide a list of clubs and societies in MNNIT?
+    - I want to know about the clubs that students can participate in at MNNIT.
+    - Tell me the names of clubs and organizations in MNNIT.
+
+- intent: what_is_academic_building
+  examples: |
+    - What is the Academic Building?
+    - Tell me about the Academic Building.
+    - Explain the purpose of the Academic Building.
+    - What happens in the Academic Building at MNNIT?
+    - Can you provide information about the Academic Building?
+    - Describe the Academic Building to me.
+    - I want to learn more about the Academic Building.
+    - Give me details on the Academic Building.
+    - Please tell me what the Academic Building is.
+    - What's the significance of the Academic Building?
+    - Academic Building at MNNIT, what's that?
+    - I'm curious about the Academic Building.
+    - Share some insights on the Academic Building.
+    - What goes on inside the Academic Building?
+    - Could you brief me on the Academic Building?
+    - I need information on the Academic Building.
+    - Tell me everything you know about the Academic Building.
+    - Let's talk about the Academic Building.
+    - Give me an overview of the Academic Building.
+    - What's special about the Academic Building?
+    - I'm interested in the Academic Building, tell me more.
+    - Academic Building - tell me its purpose.
+    - What's the Academic Building used for?
+    - Academic Building: details, please.
+    - I'd like to know about the Academic Building at MNNIT.
+    - Share some insights on MNNIT's Academic Building.
+
+- intent: what_is_administrative_building
+  examples: |
+    - What is the Administrative Building at MNNIT?
+    - Tell me about the Administrative Building.
+    - Explain the purpose of the Administrative Building.
+    - Where is the Administrative Building located?
+    - Can you provide information about the Administrative Building?
+    - Describe the Administrative Building to me.
+    - I want to learn more about the Administrative Building.
+    - Give me details on the Administrative Building.
+    - Please tell me what the Administrative Building is.
+    - What's the significance of the Administrative Building?
+    - Administrative Building at MNNIT, what's that?
+    - I'm curious about the Administrative Building.
+    - Share some insights on the Administrative Building.
+    - What goes on inside the Administrative Building?
+    - Could you brief me on the Administrative Building?
+    - I need information on the Administrative Building.
+    - Tell me everything you know about the Administrative Building.
+    - Let's talk about the Administrative Building.
+    - Give me an overview of the Administrative Building.
+    - What's special about the Administrative Building?
+    - I'm interested in the Administrative Building, tell me more.
+    - Administrative Building - tell me its purpose.
+    - What's the Administrative Building used for?
+    - Administrative Building: details, please.
+    - I'd like to know about the Administrative Building at MNNIT.
+    - Share some insights on MNNIT's Administrative Building.
+
+
+- intent: girls_gym_mnnit
+  examples: |
+    - Where is the girls' gym at MNNIT located?
+    - Tell me about the girls' gym in MNNIT.
+    - Can you provide information about the gym for girls at MNNIT?
+    - Describe the facilities at the girls' gym.
+    - What are the operating hours of the girls' gym in MNNIT?
+    - I want to learn more about the girls' gym at MNNIT.
+    - Give me details on the girls' gym at MNNIT.
+    - What are the special features of the girls' gym?
+    - Girls' gym at MNNIT, tell me more.
+    - What's available for female students at the gym?
+    - Share some insights on the girls' gym.
+    - Can you explain the services offered at the girls' gym?
+    - Is there a specific girls' gym at MNNIT?
+    - I'm curious about the girls' gym. Tell me more.
+    - Girls' gym - what's it like?
+    - Tell me about the facilities at the girls' gym.
+    - Girls' gym in MNNIT: details, please.
+    - I'd like to know about the girls' gym at MNNIT.
+    - Share some insights on MNNIT's girls' gym.
+    - How can female students access the gym facilities?
+    - Is the girls' gym well-equipped for workouts?
+    - Tell me about the amenities in the girls' gym.
+    - What are the rules for using the girls' gym?
+    - Are there any restrictions to enter the girls' gym?
+    - What are the membership requirements for the girls' gym?
+
+
+- intent: canteens_girls_hostel_mnnit
+  examples: |
+    - Are there any canteens for the girls' hostel at MNNIT?
+    - Tell me about the dining options near the girls' hostel in MNNIT.
+    - Can you provide information about the canteens for female students in MNNIT?
+    - Where can girls from the hostel grab a meal?
+    - I want to learn more about the dining facilities for girls in MNNIT.
+    - Give me details on the canteens near the girls' hostel.
+    - What are the dining choices for female students in MNNIT?
+    - Girls' hostel canteens at MNNIT, tell me more.
+    - What's available for female students in terms of dining options?
+    - Share some insights on the canteens for girls in MNNIT.
+    - Can you explain the dining services offered to female students?
+    - Is there a specific canteen for girls near the hostel at MNNIT?
+    - I'm curious about the dining options for girls. Tell me more.
+    - Dining options  what's available for female students?
+    - Tell me about the meal facilities near the girls' hostel.
+    - Canteens in MNNIT for female students: details, please.
+    - I'd like to know about the dining options for girls in MNNIT.
+    - Share some insights on MNNIT's canteens for female students.
+    - How can female students access the dining facilities near the girls' hostel?
+    - Are there any restrictions to access the canteens for girls?
+    - What are the menu options at the girls' hostel canteens?
+    - What are the operating hours for the canteens near the girls' hostel?
+    - Are there any specific dietary considerations for female students in the canteens?
+    - Can you provide information about the quality of food in the canteens for girls?
+    - What's the pricing for the meals in the girls' hostel canteens?
+
+
+- intent: seminar_hall_mnnit
+  examples: |
+    - Tell me about the Seminar Hall in MNNIT.
+    - Can you provide information about the seminar hall at MNNIT?
+    - What's the purpose of the Seminar Hall?
+    - Where is the Seminar Hall located at MNNIT?
+    - Give me details on the seminar facilities in MNNIT.
+    - Explain the features of the Seminar Hall at MNNIT.
+    - What events take place in the Seminar Hall?
+    - I want to learn more about the Seminar Hall.
+    - Share insights on the Seminar Hall.
+    - Is there a specific seminar hall at MNNIT?
+    - Tell me everything you know about the Seminar Hall.
+    - Let's talk about the Seminar Hall.
+    - Can you describe the amenities in the Seminar Hall?
+    - How can I access the Seminar Hall?
+    - Are there any restrictions to enter the Seminar Hall?
+    - What are the special features of the Seminar Hall?
+    - Seminar Hall at MNNIT, what's that?
+    - I'm curious about the Seminar Hall.
+    - Share some insights on MNNIT's Seminar Hall.
+    - What goes on inside the Seminar Hall at MNNIT?
+    - Could you brief me on the Seminar Hall?
+    - I need information on the Seminar Hall.
+    - Where can I find the Seminar Hall at MNNIT?
+    - What are the events or functions organized in the Seminar Hall?
+    - What is the seating capacity of the Seminar Hall at MNNIT?
+    - Is the Seminar Hall available for student events?
+
+
+- intent: mp_hall_mnnit
+  examples: |
+    - Tell me about MP Hall at MNNIT.
+    - Can you provide information about the MP Hall in MNNIT?
+    - What's the purpose of MP Hall?
+    - Where is MP Hall located at MNNIT?
+    - Give me details on the facilities in MP Hall.
+    - Explain the features of MP Hall at MNNIT.
+    - What events take place in MP Hall?
+    - I want to learn more about MP Hall.
+    - Share insights on MP Hall.
+    - Is there a specific MP Hall at MNNIT?
+    - Tell me everything you know about MP Hall.
+    - Let's talk about MP Hall.
+    - Can you describe the amenities in MP Hall?
+    - How can I access MP Hall?
+    - Are there any restrictions to enter MP Hall?
+    - What are the special features of MP Hall?
+    - MP Hall at MNNIT, what's that?
+    - I'm curious about MP Hall.
+    - Share some insights on MNNIT's MP Hall.
+    - What goes on inside MP Hall at MNNIT?
+    - Could you brief me on MP Hall?
+    - I need information on MP Hall.
+    - Where can I find MP Hall at MNNIT?
+    - What are the events or functions organized in MP Hall?
+    - Is MP Hall available for student events?
+    - Tell me about the history of MP Hall at MNNIT.
+
+
+- intent: dean_office_mnnit
+  examples: |
+    - Tell me about the Dean's Office at MNNIT.
+    - Can you provide information about the Dean's Office in MNNIT?
+    - Where is the Dean's Office located at MNNIT?
+    - Give me details on the functions of the Dean's Office.
+    - Explain the roles of the Dean's Office at MNNIT.
+    - What services are provided by the Dean's Office?
+    - I want to learn more about the Dean's Office.
+    - Share insights on the Dean's Office.
+    - Is there a specific Dean's Office building at MNNIT?
+    - Tell me everything you know about the Dean's Office.
+    - Let's talk about the Dean's Office.
+    - Can you describe the organizational structure of the Dean's Office?
+    - How can I contact the Dean's Office?
+    - Are there any specific rules or procedures for the Dean's Office?
+    - What are the special features of the Dean's Office?
+    - Dean's Office at MNNIT, what's its role?
+    - I'm curious about the Dean's Office.
+    - Share some insights on MNNIT's Dean's Office.
+    - What goes on inside the Dean's Office at MNNIT?
+    - Could you brief me on the Dean's Office?
+    - I need information on the Dean's Office.
+    - Where can I find the Dean's Office at MNNIT?
+    - What is the Dean's Office responsible for at MNNIT?
+
+
+- intent: library_mnnit
+  examples: |
+    - Tell me about the library at MNNIT.
+    - Can you provide information about the MNNIT library?
+    - Where is the library located at MNNIT?
+    - Give me details on the services offered by the library.
+    - Explain the resources available at the library.
+    - What's the operating hours of the library?
+    - I want to learn more about the library at MNNIT.
+    - Share insights on the library.
+    - Is there a specific building for the library at MNNIT?
+    - Tell me everything you know about the library.
+    - Let's talk about the library.
+    - Can you describe the amenities in the library?
+    - How can I access the library?
+    - Are there any specific rules or procedures for using the library?
+    - What are the special features of the library?
+    - MNNIT library, what's it like?
+    - I'm curious about the library.
+    - Share some insights on MNNIT's library.
+    - What goes on inside the library at MNNIT?
+    - Could you brief me on the library's services?
+    - I need information on the library.
+    - Where can I find the library at MNNIT?
+    - What resources are available for research in the library?
+    - Is the library open to the public?
+
+
+- intent: warden_office_mnnit
+  examples: |
+    - Tell me about the Warden's Office at MNNIT.
+    - Can you provide information about the Warden's Office in MNNIT?
+    - Where is the Warden's Office located at MNNIT?
+    - Give me details on the functions of the Warden's Office.
+    - Explain the roles of the Warden's Office at MNNIT.
+    - What services are provided by the Warden's Office?
+    - I want to learn more about the Warden's Office.
+    - Share insights on the Warden's Office.
+    - Is there a specific building for the Warden's Office at MNNIT?
+    - Tell me everything you know about the Warden's Office.
+    - Let's talk about the Warden's Office.
+    - Can you describe the organizational structure of the Warden's Office?
+    - How can I contact the Warden's Office?
+    - Are there any specific rules or procedures for the Warden's Office?
+    - What are the special features of the Warden's Office?
+    - Warden's Office at MNNIT, what's its role?
+    - I'm curious about the Warden's Office.
+    - Share some insights on MNNIT's Warden's Office.
+    - What goes on inside the Warden's Office at MNNIT?
+    - Could you brief me on the Warden's Office?
+    - I need information on the Warden's Office.
+    - Where can I find the Warden's Office at MNNIT?
+    - What responsibilities do the Wardens have at MNNIT?
+
