@@ -262,120 +262,122 @@ nlu:
 #ISME DAAL DE gacpay krke
 - intents: gac_2023_payment
   examples: |
-   - What are the payment details for registering for GAC 2023?
-   - What are the different ways for paying for GAC 2023?
-   - What are the different ways to donate for GAC 2023?
-   - How to pay for GAC 2023?
-   - Give me the bank details for GAC 2023?
-   - Provide me the bank details for paying for GAC 2023?
-   - How can I make a payment for GAC 2023?
-   - Tell me about the payment options for GAC 2023.
-   - What are the accepted payment methods for GAC 2023 registration?
-   - Provide information on the payment process for GAC 2023.
-   - I'd like to know how to pay for GAC 2023. Can you guide me?
-   - Explain the payment details for GAC 2023.
-   - Give me an overview of the payment procedures for GAC 2023.
-   - What is the cost of registration for GAC 2023?
-   - How much do I need to pay for GAC 2023 attendance?
-   - Share information about payment deadlines for GAC 2023.
-   - Can you provide a breakdown of registration fees for GAC 2023?
-   - Tell me about any discounts or promo codes for GAC 2023 registration.
-   - What is the refund policy for GAC 2023 payments?
-   - Explain the steps to complete the payment for GAC 2023.
-   - How do I pay for additional services or workshops at GAC 2023?
-   - What is the currency for payments related to GAC 2023?
-   - I'd like to know if installment payments are available for GAC 2023.
-   - Tell me about the payment portal or platform for GAC 2023.
-   - Are there group discounts for registering multiple attendees for GAC 2023?
-   - Can you provide information on scholarship opportunities or financial aid for GAC 2023?
-   - What is the registration fee for students attending GAC 2023?
-   - How can I obtain an invoice for my GAC 2023 registration?
-   - Explain the process for confirming my payment for GAC 2023.
-   - Tell me about any additional costs associated with GAC 2023 attendance.
-   - Are there any special rates for GAC 2023 speakers or presenters?
-   - I'd like to learn more about payment confirmation and receipts for GAC 2023.
-   - What is the policy for late or on-site registration payments for GAC 2023?
-   - Can you provide details on the payment support contact for GAC 2023?
-   - Explain the process for canceling or modifying my payment for GAC 2023.
+   - What are the payment details for registering for [GAC 2023](gacpay)?
+   - What are the different ways for paying for [GAC 2023](gacpay)?
+   - What are the different ways to donate for [GAC 2023](gacpay)?
+   - How to pay for [GAC 2023](gacpay)?
+   - Give me the bank details for [GAC 2023](gacpay).
+   - Provide me the bank details for paying for [GAC 2023](gacpay).
+   - How can I make a payment for [GAC 2023](gacpay)?
+   - Tell me about the payment options for [GAC 2023](gacpay) registration?
+   - What are the accepted payment methods for [GAC 2023](gacpay) registration?
+   - Provide information on the payment process for [GAC 2023](gacpay).
+   - I'd like to know how to pay for [GAC 2023](gacpay). Can you guide me?
+   - Explain the payment details for [GAC 2023](gacpay).
+   - Give me an overview of the payment procedures for [GAC 2023](gacpay).
+   - What is the cost of registration for [GAC 2023](gacpay)?
+   - How much do I need to pay for [GAC 2023](gacpay) attendance?
+   - Share information about payment deadlines for [GAC 2023](gacpay).
+   - Can you provide a breakdown of registration fees for [GAC 2023](gacpay)?
+   - Tell me about any discounts or promo codes for [GAC 2023](gacpay) registration.
+   - What is the refund policy for [GAC 2023](gacpay) payments?
+   - Explain the steps to complete the payment for [GAC 2023](gacpay).
+   - How do I pay for additional services or workshops at [GAC 2023](gacpay)?
+   - What is the currency for payments related to [GAC 2023](gacpay)?
+   - I'd like to know if installment payments are available for [GAC 2023](gacpay).
+   - Tell me about the payment portal or platform for [GAC 2023](gacpay).
+   - Are there group discounts for registering multiple attendees for [GAC 2023](gacpay)?
+   - Can you provide information on scholarship opportunities or financial aid for [GAC 2023](gacpay)?
+   - What is the registration fee for students attending [GAC 2023](gacpay)?
+   - How can I obtain an invoice for my [GAC 2023](gacpay) registration?
+   - Explain the process for confirming my payment for [GAC 2023](gacpay).
+   - Tell me about any additional costs associated with [GAC 2023](gacpay) attendance.
+   - Are there any special rates for [GAC 2023](gacpay) speakers or presenters?
+   - I'd like to learn more about payment confirmation and receipts for [GAC 2023](gacpay).
+   - What is the policy for late or on-site registration payments for [GAC 2023](gacpay)?
+   - Can you provide details on the payment support contact for [GAC 2023](gacpay)?
+   - Explain the process for canceling or modifying my payment for [GAC 2023](gacpay).
+
 #isme gacspon krke daal de
 - intent: gac_2023_sponsorship
   examples: |
-   - What is the different sponsorship amounts provided?
-   - Is there any detail of sponsorship amount?
-   - Give me the detail of sponsorship amount?
-   - What is the minimum sponsorship amout available?
-   - Can we donate amount less than sponsorship amount?
-   - What are the details of the amount less than sponsorship amount?
-   - How can I become a sponsor for GAC 2023?
-   - Tell me about the sponsorship opportunities available for GAC 2023.
-   - What are the different sponsorship packages for GAC 2023?
-   - Provide information on sponsorship levels and benefits for GAC 2023.
-   - I'm interested in sponsoring GAC 2023. Can you guide me through the process?
-   - Explain the sponsorship details and requirements for GAC 2023.
-   - Give me an overview of the sponsorship packages and their costs for GAC 2023.
-   - What promotional opportunities are available for sponsors at GAC 2023?
-   - How can I inquire about custom sponsorship options for GAC 2023?
-   - Share information on the sponsorship application deadline for GAC 2023.
-   - Can you provide a list of previous sponsors for GAC events?
-   - Tell me about the visibility and branding options for sponsors at GAC 2023.
-   - What is the process for submitting a sponsorship proposal for GAC 2023?
-   - Explain the benefits and perks of being a sponsor at GAC 2023.
-   - Are there specific industries or sectors that GAC is looking for sponsors from?
-   - I'd like to know if there are exclusive sponsorship opportunities for certain events at GAC 2023.
-   - What are the sponsorship payment and invoicing procedures for GAC 2023?
-   - Can you provide information on sponsorship contacts or representatives for GAC 2023?
-   - What is the timeline for sponsorship confirmation for GAC 2023?
-   - Are there any partnership or co-sponsorship opportunities for GAC 2023?
-   - Tell me about any special perks or recognition for long-term sponsors of GAC.
-   - What is the process for signing a sponsorship agreement for GAC 2023?
-   - How can I request a sponsorship prospectus for GAC 2023?
-   - Explain the policy for sponsorship exclusivity in specific categories at GAC 2023.
-   - Tell me about the opportunities for sponsors to host workshops or sessions at GAC 2023.
-   - Can you provide examples of successful sponsorships from past GAC conferences?
-   - I'd like to learn more about sponsorship marketing and promotion at GAC 2023.
-   - What is the procedure for sponsor acknowledgment and recognition at GAC 2023?
-   - Provide details on the sponsorship support and assistance available for sponsors at GAC 2023.
-   - Explain the process for canceling or modifying a sponsorship commitment for GAC 2023.
+   - What is the different [sponsorship amounts](gacspan) provided?
+   - Is there any detail of [sponsorship amount](gacspan)?
+   - Give me the detail of [sponsorship amount](gacspan)?
+   - What is the minimum [sponsorship amount](gacspan) available?
+   - Can we donate [amount](gacspan) less than [sponsorship amount](gacspan)?
+   - What are the details of the [amount](gacspan) less than [sponsorship amount](gacspan)?
+   - How can I become a sponsor for [GAC 2023](gacspan)?
+   - Tell me about the [sponsorship opportunities](gacspan) available for [GAC 2023](gacspan).
+   - What are the different [sponsorship packages](gacspan) for [GAC 2023](gacspan)?
+   - Provide information on [sponsorship levels](gacspan) and benefits for [GAC 2023](gacspan).
+   - I'm interested in sponsoring [GAC 2023](gacspan). Can you guide me through the process?
+   - Explain the [sponsorship details](gacspan) and requirements for [GAC 2023](gacspan).
+   - Give me an overview of the [sponsorship packages](gacspan) and their [costs](gacspan) for [GAC 2023](gacspan).
+   - What [promotional opportunities](gacspan) are available for [sponsors](gacspan) at [GAC 2023](gacspan)?
+   - How can I inquire about [custom sponsorship options](gacspan) for [GAC 2023](gacspan)?
+   - Share information on the [sponsorship application](gacspan) deadline for [GAC 2023](gacspan).
+   - Can you provide a list of previous [sponsors](gacspan) for [GAC events](gacspan)?
+   - Tell me about the [visibility](gacspan) and [branding options](gacspan) for [sponsors](gacspan) at [GAC 2023](gacspan).
+   - What is the process for submitting a [sponsorship proposal](gacspan) for [GAC 2023](gacspan)?
+   - Explain the [benefits](gacspan) and [perks](gacspan) of being a [sponsor](gacspan) at [GAC 2023](gacspan).
+   - Are there specific industries or sectors that [GAC](gacspan) is looking for [sponsors](gacspan) from?
+   - I'd like to know if there are [exclusive sponsorship opportunities](gacspan) for certain events at [GAC 2023](gacspan).
+   - What are the [sponsorship payment](gacspan) and [invoicing procedures](gacspan) for [GAC 2023](gacspan)?
+   - Can you provide information on [sponsorship contacts](gacspan) or representatives for [GAC 2023](gacspan)?
+   - What is the [timeline](gacspan) for [sponsorship confirmation](gacspan) for [GAC 2023](gacspan)?
+   - Are there any [partnership](gacspan) or [co-sponsorship opportunities](gacspan) for [GAC 2023](gacspan)?
+   - Tell me about any [special perks](gacspan) or [recognition](gacspan) for [long-term sponsors](gacspan) of [GAC](gacspan).
+   - What is the process for signing a [sponsorship agreement](gacspan) for [GAC 2023](gacspan)?
+   - How can I request a [sponsorship prospectus](gacspan) for [GAC 2023](gacspan)?
+   - Explain the policy for [sponsorship exclusivity](gacspan) in specific categories at [GAC 2023](gacspan).
+   - Tell me about the [opportunities for sponsors](gacspan) to host workshops or sessions at [GAC 2023](gacspan).
+   - Can you provide examples of [successful sponsorships](gacspan) from past [GAC conferences](gacspan)?
+   - I'd like to learn more about [sponsorship marketing](gacspan) and promotion at [GAC 2023](gacspan).
+   - What is the [procedure](gacspan) for [sponsor acknowledgment](gacspan) and [recognition](gacspan) at [GAC 2023](gacspan).
+   - Provide details on the [sponsorship support](gacspan) and [assistance](gacspan) available for [sponsors](gacspan) at [GAC 2023](gacspan).
+   - Explain the [process](gacspan) for canceling or modifying a [sponsorship commitment](gacspan) for [GAC 2023](gacspan).
+
 #isme gaccorcom
 - intent: gac_2023_corr_mem_committee
   examples: |
-   - who are the members of GAC 2023?
-   - Who are the correspondence for GAC 2023?
-   - List the names of members of GAC 2023?
-   - List the namesof correspondence for GAC 2023?
-   - What are different  committee parts of GAC 2023?
-   - List all the committee parts of GAC 2023?
-   - List the names of all the committee of GAC 2023?
-   - Provide all the details of committee of GAC 2023?
-   - Who are the key members of the organizing team for GAC 2023?
-   - Provide information on how to contact the GAC 2023 committee.
-   - Can you share details about the program committee members for GAC 2023?
-   - I'd like to know who is responsible for the   GAC 2023. Can you help?
-   - Tell me about the communication channels for GAC 2023 correspondence.
-   - Give me an overview of the advisory board members for GAC 2023.
-   - Share information about the committee for GAC 2023.
-   - How can I contact the committee for GAC 2023?
-   - Tell me about the members for GAC 2023.
-   - Provide details on the members and correspondence for GAC 2023 updates.
-   - Who is the primary members ,committee for GAC 2023?
-   - I'd like to reach out to the  team for GAC 2023. Can you provide their contact information?
-   - Share the contact details for the technical program chair of GAC 2023.
-   - Tell me about the GAC 2023 committee and how to contact them.
-   - Provide information on the media and press committee for GAC 2023.
-   - Provide information on the advisory committee for GAC 2023.
-   - Provide information on the event management committee for GAC 2023.
-   - Provide information on the hospitality committee for GAC 2023.
-   - Provide information on the medical committee for GAC 2023.
-   - Provide information on the publication and souvenir committee for GAC 2023.
-   - Provide information on the hostel visit committee for GAC 2023.
-   - Provide information on the purchase committee for GAC 2023.
-   - Provide information on the registration committee for GAC 2023.
-   - Provide information on the resource generation committee for GAC 2023.
-   - Who are the key members of the organizing team for GAC 2023?
-   - Can you share details about the program committee members for GAC 2023?
-   - I'd like to know who is responsible members  for GAC 2023. Can you help?
-   - Tell me about the communication channels for GAC 2023 correspondence.
-   - Give me an overview of the advisory board members for GAC 2023.
+   - Who are the members of [GAC 2023](gaccorcom)?
+   - Who are the correspondence for [GAC 2023](gaccorcom)?
+   - List the names of members of [GAC 2023](gaccorcom)?
+   - List the namesof correspondence for [GAC 2023](gaccorcom)?
+   - What are different  committee parts of [GAC 2023](gaccorcom)?
+   - List all the committee parts of [GAC 2023](gaccorcom)?
+   - List the names of all the committee of [GAC 2023](gaccorcom)?
+   - Provide all the details of committee of [GAC 2023](gaccorcom)?
+   - Who are the key members of the organizing team for [GAC 2023](gaccorcom)?
+   - Provide information on how to contact the [GAC 2023](gaccorcom) committee.
+   - Can you share details about the program committee members for [GAC 2023](gaccorcom)?
+   - I'd like to know who is responsible for the [GAC 2023](gaccorcom). Can you help?
+   - Tell me about the communication channels for [GAC 2023](gaccorcom) correspondence.
+   - Give me an overview of the advisory board members for [GAC 2023](gaccorcom).
+   - Share information about the committee for [GAC 2023](gaccorcom).
+   - How can I contact the committee for [GAC 2023](gaccorcom)?
+   - Tell me about the members for [GAC 2023](gaccorcom).
+   - Provide details on the members and correspondence for [GAC 2023](gaccorcom) updates.
+   - Who is the primary members ,committee for [GAC 2023](gaccorcom)?
+   - I'd like to reach out to the  team for [GAC 2023](gaccorcom). Can you provide their contact information?
+   - Share the contact details for the technical program chair of [GAC 2023](gaccorcom).
+   - Tell me about the [GAC 2023](gaccorcom) committee and how to contact them.
+   - Provide information on the media and press committee for [GAC 2023](gaccorcom).
+   - Provide information on the advisory committee for [GAC 2023](gaccorcom).
+   - Provide information on the event management committee for [GAC 2023](gaccorcom).
+   - Provide information on the hospitality committee for [GAC 2023](gaccorcom).
+   - Provide information on the medical committee for [GAC 2023](gaccorcom).
+   - Provide information on the publication and souvenir committee for [GAC 2023](gaccorcom).
+   - Provide information on the hostel visit committee for [GAC 2023](gaccorcom).
+   - Provide information on the purchase committee for [GAC 2023](gaccorcom).
+   - Provide information on the registration committee for [GAC 2023](gaccorcom).
+   - Provide information on the resource generation committee for [GAC 2023](gaccorcom).
+   - Who are the key members of the organizing team for [GAC 2023](gaccorcom)?
+   - Can you share details about the program committee members for [GAC 2023](gaccorcom)?
+   - I'd like to know who is responsible members  for [GAC 2023](gaccorcom). Can you help?
+   - Tell me about the communication channels for [GAC 2023](gaccorcom) correspondence.
+   - Give me an overview of the advisory board members for [GAC 2023](gaccorcom).
 #ye waala dekhte h
 - intent: maa
   examples: |
