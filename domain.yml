@@ -31,6 +31,14 @@ intents:
   - warden_office_mnnit
   - boys_hostel_canteens
   - Boys_hostel
+  - projects
+  - ask_self_balancing_bot
+  - humanoid_info
+  - SpiderBot_info
+  - rlsupermario_info
+  - chatbot_info
+  - linefollower_info
+  - selfdrivingcart_info
 actions:
   - restart_convo
   - gac2023_basic_info
@@ -113,7 +121,36 @@ responses:
     - text: "Dear Alumni, we are delighted to offer dedicated dining facilities: 'Talwar Cafe' for Swami Vivekananda Boy's Hostel, and 'Raj, Ojha, Tirath Raj, Pillai Canteens' for senior hostels like Tilak, Patel, and Tandon"
   utter_warden_office_mnnit:
     - text: "The Warden's Office at MNNIT is  located near the Lecture Hall Complex or opposite to the Computer Centre. It is where the Chief Warden typically oversees various matters related to hostels and students. This office plays a central role in addressing and managing issues concerning hostels and students' welfare. For specific inquiries, such as contacting the Chief Warden or discussing any hostel-related concerns, you can visit the Warden's Office or contact MNNIT administration for further guidance."
-
+  utter_project:
+  - text: "The current projects of club include
+           1. Self balancing bot
+           2. Humanoid
+           3. Spider Bot
+           4. RL Super Mario
+           5. Chatbot
+           6. Line Follower
+           7. Self Driving Cart"
+  utter_balance:
+  - text: "The Self-balancing bot is an automated vehicle that balances itself without any outside help or support.
+           This project involves using PID Control and involuted programming.Self-balancing bot is based on the principle of Inverted pendulum, 
+           which is a two wheel vehicle balances itself up in the vertical position with reference to the ground "
+  utter_human:
+  - text: " Humanoid robots are professional service robots built to mimic human motion and interaction.
+   Like all service robots, they provide value by automating tasks in a way that leads to cost-savings and productivity. "
+  utter_spider:
+  - text: "A spiderbot is a computer program that scans the web automatically,
+   “reading” everything it finds, analyzing the information and classifying it in the database or index of the search engine. "
+  utter_rl:
+  - text: "RL Super Mario is a platform game ,an AI Mario model using reinforcement learning with Python.
+  The game mechanics of Super Mario Bros. involve movement, obstacles, enemies, power-ups, and level design."
+  utter_chatbot:
+  - text: " A chatbot is a computer program that simulates and processes human conversation (either written or spoken), allowing humans to interact wit "
+  utter_linefollower:
+  - text: "The line follower robot is a mobile machine that can detect and follow the line drawn on the floor.
+  Generally, the path is predefined and can be either visible like a black line on a white surface with a high contrasted color or it can be invisible like a magnetic filed. "
+  utter_self:
+  - text: "A self-driving car, also known as an autonomous car (AC), driverless car, or robotic car (robo-car), is a car that is capable of traveling without human input. 
+  Self-driving cars are responsible for perceiving the environment, monitoring important systems, and control, including navigation."
   utter_gacspon:
   - text: "Here you can find the details about the sponsorship: https://vaave.s3.amazonaws.com/attachments/1685368221_bc91f35905affd992433b8df9e8c4f15.pdf"
 session_config:
