@@ -39,11 +39,13 @@ intents:
   - chatbot_info
   - linefollower_info
   - selfdrivingcart_info
+  - out_of_scope
 actions:
   - restart_convo
   - gac2023_basic_info
   - gac2023_orgcom
   - gac_reg
+  - say_fallback
 entities:
   - general_info
   - gacdon
