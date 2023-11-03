@@ -184,3 +184,43 @@ stories:
   - intent: boys_hostel_canteens
   - action: utter_boys_hostel_canteen
   - action: restart_convo
+- story: project
+  steps:
+  - intent: projects
+  - action: utter_project 
+  - action: restart_convo
+- story: balance
+  steps:
+  - intent: ask_self_balancing_bot 
+  - action: utter_balance
+  - action: restart_convo
+- story: human
+  steps:
+  - intent: humanoid_info
+  - action: utter_human
+  - action: restart_convo
+- story: spider
+  steps:
+  - intent: SpiderBot_info
+  - action: utter_spider
+  - action: restart_convo
+- story: rl
+  steps:
+  - intent: rlsupermario_info
+  - action: utter_rl
+  - action: restart_convo
+- story: chatbot
+  steps:
+  - intent: chatbot_info
+  - action: utter_chatbot
+  - action: restart_convo
+- story: linefollower
+  steps:
+  - intent: linefollower_info
+  - action: utter_linefollower
+  - action: restart_convo
+- story: self
+  steps:
+  - intent: selfdrivingcart_info
+  - action: utter_self
+  - action: restart_convo
