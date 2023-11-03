@@ -907,3 +907,163 @@ nlu:
     - I need information on the Warden's Office.
     - Where can I find the Warden's Office at MNNIT?
     - What responsibilities do the Wardens have at MNNIT?
+- intent: projects
+  examples: |
+    - What are the current projects of Robotics Club?
+    - What are some featured project of Robotics Club?
+    - Projects of Robotics Club
+    - outstanding projects of Robotics Club
+    - best project of Robotics Club
+    - excellent project of Robotics Club MNNIT
+    - Robotics Club Project MNNIT
+    - Name some projects of Robotics Club 
+    - Tell me something about projects of Robotics Club
+
+- intent: ask_self_balancing_bot
+  examples: |
+    - Self Balancing Bot
+    - selfbalancingbot
+    - tell me about self balancing bot
+    - Tell me about Self Balancing Bot
+    - Brief introduction about self balancing bot
+    - Can you give me a brief overview of  the self balancing bot project?
+    - I'm new to self balancing bot. Can you explain what they are?
+    - Tell me the basics of self balancing bot
+    - tell me something about self balancing bot
+    - self balancing bot project
+    - I'm interested in learning about the fundamentals of self balancing bot.
+    - tell me something about self balancing bot project
+    - What do I need to know about self-balancing bots as a beginner?
+    - an introduction to self-balancing robot
+    - Explain the concept of self-balancing bots in simple terms
+    - I want to understand the fundamental principles of self-balancing bots.
+    - What are the key concepts behind self-balancing bots?
+    - Tell me the basics of how self-balancing bots work
+    - foundational aspects of self-balancing bots.
+    - give me an overview of self-balancing bot technology?
+    - What are the fundamental principles of balance in self-balancing bots?
+    - How do self-balancing bots maintain stability while moving?
+    - Can you explain the basic mechanics of self-balancing robots?
+    - I'm looking for a beginner-friendly introduction to self-balancing bots.
+    - What are the main components of a self balancing bot?
+    - Can you list the key parts of a self balancing bot project?
+    - Tell me about the main elements that make up a self balancing bot.
+  
+- intent: humanoid_info
+  examples: |
+    - Tell me about the humanoid robot project .
+    - Purpose of the humanoid robot project?
+    - Features of the humanoid robot project?|
+    - What components are used in the humanoid robot project?
+    - Give me the details about the components of the humanoid robot project ?
+    - Tell me something about humanoid robot project
+    - About humanoid robot project .
+    - How is the humanoid robot project view .
+    - What are the dimensions of the humanoid robot project?
+    - What is the humanoid robot project?
+    - Please tell me more about the humanoid robot project .
+- intent: SpiderBot_info
+  examples: |
+    - Spider bot project
+    - Project about for the spider bot project?
+    - Information about the project related to the spider bot project .
+    - More about the project involving the spider bot project.
+    - About the project that focuses on the spider bot project.
+    - Details about the project related to the spider bot project?
+    - What do the spider bot project do ?
+    - Please , Share information about the spider bot project.
+    - About the project that utilizes the spider bot project .
+    - Project details for spider bot project.
+    - Project information for the spider bot project?
+     - Spider bot project
+    - Project about for the spider bot project?
+    - Information about the project related to the spider bot project .
+    - More about the project involving the spider bot project.
+    - About the project that focuses on the spider bot project.
+    - Details about the project related to the spider bot project?
+    - What do the spider bot project do ?
+    - Please , Share information about the spider bot project.
+    - About the project that utilizes the spider bot project .
+    - Project details for spider bot project.
+    - Project information for the spider bot project?
+- intent: humanoid_info
+  examples: |
+    - Tell me about the humanoid robot project .
+    - Purpose of the humanoid robot project?
+    - Features of the humanoid robot project?|
+    - What components are used in the humanoid robot project?
+    - Give me the details about the components of the humanoid robot project ?
+    - Tell me something about humanoid robot project
+    - About humanoid robot project .
+    - How is the humanoid robot project view .
+    - What are the dimensions of the humanoid robot project?
+    - What is the humanoid robot project?
+    - Please tell me more about the humanoid robot project .
+- intent: rlsupermario_info
+  examples: |
+    - tell me about rl super mario project project?
+    - rl super mario project?
+    - what are the features of rl super mario project?
+    - what is the use of rl super mario project?
+    - tell me something about rl super mario project?
+    - what is the purpose of this rl super mario project?
+    - About the project that focuses on the rl super mario project.
+    - Details about the project related to the rl super mario project?
+    - What do the rl super mario project do ?
+    - What is the rl super mario robot project?
+    - Please tell me more about the rl super mario robot project .
+
+- intent: chatbot_info
+  examples: |
+    - tell me about chatbot project project?
+    - chatbot project?
+    - what are the features of chatbot project?
+    - what is the use of chatbot project?
+    - tell me something about chatbot project?
+    - what is the purpose of this chatbot project?
+    - About the project that focuses on the chatbot project.
+    - Details about the project related to the chatbot project?
+    - What do the chatbot project do ?
+    - What is the chatbot robot project?
+    - Please tell me more about the chatbot robot project .
+- intent: linefollower_info
+  examples: |
+    - what is line follower bot
+    - tell me about line follower bot
+    - Purpose of the  line follower project?
+    - Features of the line follower project?
+    - about line follower bot?
+    - What is the main objective of the line follower bot project?
+    - Could you describe the technology or components used in your line follower bot?
+    - How does the line follower bot detect and follow lines or paths?
+    - What inspired you to work on a line follower robot project?
+    - What challenges did you encounter while building the line follower bot?
+    - What programming languages or software did you use for the project?
+    - How do you control or interface with the line follower bot?
+    - Are there specific applications or industries where this project could be useful?
+    - What kind of sensors or detectors are employed to make the bot follow lines accurately?
+    - Can you share some details about the design and physical structure of the bot?
+    - What are the potential future improvements or enhancements you plan for the project?
+    - Were there any unique features or innovations you introduced in your line follower bot?
+    - How does the bot handle intersections or complex line patterns?
+    - What was the most rewarding aspect of completing this line follower bot project?
+    - Can you share any tips or advice for others interested in building their own line follower robots?
+- intent: selfdrivingcart_info
+  examples: |
+    - what is self driving cart
+    - tell me about self driving cart
+    - Purpose of the  self driving cart project?
+    - Features of the self driving cart project?
+    - about self driving cart?
+    - What is the main objective of the self driving cart project?
+    - What inspired you to work on a self driving cart robot project?
+    - What challenges did you encounter while building the self driving cart?
+    - Are there specific applications or industries where this project could be useful?
+    - What was the most rewarding aspect of completing this self driving cart project?
+    - Can you share any tips or advice for others interested in building their own self driving cart robots?
+
+
+    
+
+
+
