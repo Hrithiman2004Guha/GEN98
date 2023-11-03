@@ -183,7 +183,7 @@ stories:
   steps:
   - intent: boys_hostel_canteens
   - action: utter_boys_hostel_canteen
-  - action: restart_convo
+  - action: 
 - story: project
   steps:
   - intent: projects
@@ -219,6 +219,10 @@ stories:
   - intent: linefollower_info
   - action: utter_linefollower
   - action: restart_convo
+- story: fallback
+  steps:
+  - intent: nlu_fallback
+  - action: say_fallback
 - story: self
   steps:
   - intent: selfdrivingcart_info
