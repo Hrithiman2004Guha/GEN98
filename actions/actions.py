@@ -9,9 +9,24 @@ import time
 import sys
 import random
 from bson import ObjectId
+import openai
 client = pymongo.MongoClient("mongodb+srv://Derik714:Hrithiman1856@cluster0.c5z73yl.mongodb.net/")
 DataBase = client['GACData']
 coll1 = DataBase['GAC2023']
+openai.api_key = "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"
+class ActionFallback(Action):
+    def name(self) -> Text:
+        return "say_fallback"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_input = tracker.latest_message.get("text")
+        response = openai.Completion.create(
+            engine="text-davinci-003",  # GPT-3.5 engine
+            prompt=user_input,
+            max_tokens=50)
+
+        fallback_response = response.choices[0].text.strip()
+        dispatcher.utter_message(text=fallback_response)
 class ConvoRestart(Action):
     def name(self) -> Text:
         return "restart_convo"
