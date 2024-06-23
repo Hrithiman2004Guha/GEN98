@@ -8,3 +8,4 @@ GEN98 also excels at offering a wealth of knowledge about MNNIT, covering topics
 Whether you're a curious alum eager to know about the next GAC event or a prospective student exploring MNNIT, GEN98 is here to provide accurate, timely, and personalized responses to your inquiries. It's your virtual guide to all things MNNIT and GAC 2023, available 24/7 to assist and inform.
 
 Let GEN98 be your trusted companion for navigating the world of MNNIT and staying updated on the exciting happenings of GAC 2023.
+Youtube: https://www.youtube.com/watch?v=BAzchdSOu-o
